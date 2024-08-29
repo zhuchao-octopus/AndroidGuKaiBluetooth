@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bt_music">BT MUSIC</string>
+    <string name="bluetooth_settings">Bluetooth</string>
+    <string name="device_name">"Název zařízení"</string>
+    <string name="pin">PIN Number</string>
+    <string name="auto_connect">"Automatické připojení"</string>
+    <string name="auto_answer">"Automatická odpověď"</string>
+    <string name="alert_dialog_ok">OK</string>
+    <string name="alert_dialog_cancel">"Zrušit"</string>
+    <string name="remove_calllog">"Zmazat všechny záznamy hovorů"</string>
+    <string name="download_pb_phone">"Stáhnout kontakty"</string>
+    <string name="download_pb_sim">Download the SIM phone book</string>
+    <string name="remove_pb_phone">"Smazat kontakty"</string>
+    <string name="remove_pb_favorite">Delete the phone book in favorite</string>
+    <string name="remove_pb_sim">Delete the SIM phone book</string>
+    <string name="remove_pair">"Smazat všechny spárované záznamy ?"</string>
+    <string name="remove_one_pair">Delete this pair records?</string>
+    <string name="record">"Záznamy"</string>
+    <string name="total">"Celkem:"</string>
+    <string name="text_connect">"Připojeno"</string>
+    <string name="saving_phone_book">"Ukládám kontakty, malý moment."</string>
+    <string-array name="auto_array">
+        <item>"Zavřít"</item>
+        <item>"Otevřít"</item>
+    </string-array>
+
+    <string name="pause">Pause</string>
+
+    <string name="if_dial">"Vytočit:"</string>
+    <string name="if_del">Del:</string>
+
+    <string name="if_diconnect">"Aktuálně připojené zařízení, odpojit?"</string>
+
+    <string name="phone_book_connect_fail">"Stahování kontaktů selhalo,možná není telefon podporován."</string>
+    <string name="connecting">"připojování"</string>
+
+    <string name="dialing">"vytáčení"</string>
+    <string name="incoming">"příchozí"</string>
+    <string name="calling">calling</string>
+    <string name="unknow">"neznámé"</string>
+
+
+    <string name="a2dp_disconnect_info">"zařízení odpojeno, hledat zařízení: %s,  "</string>
+    <string name="a2dp_disconnect_info2">"PIN:%s připojit"</string>
+
+
+    <string name="sorting">"Třídění kontaktů"</string>
+
+    <!--     <string name="get_pb_index">Get Phone book index</string> -->
+    <!--     <string name="get_phone">Get Phone book index</string> -->
+
+    <string name="help">"Bluetooth ovládání hlasem"</string>
+    <string name="help2">"Vytočit"</string>
+    <string name="help3">"Hovor"</string>
+    <string name="speech_note1">"Vyberte k vytočení"</string>
+
+
+    <string name="syncing">"Synchronizování kontaktů"</string>
+    <string name="updating">"Aktualizování kontaktů"</string>
+
+    <string name="voicecontrol_name">"Ovládání hlasem"</string>
+    <string name="voicecontrol_notice">"Nejdříve připojte Bluetooth a stáhněte kontakty!"</string>
+
+
+    <string name="version">Version</string>
+
+    <string name="bt_update">Do you want to update?</string>
+    <string name="add_to_favorite">Do you want to add to favorite list?</string>
+    <string name="delete_favorite">Do you want to delete the favorite in list?</string>
+
+
+    <string name="matchdevice">Paired devices</string>
+    <string name="searchdevice">Available devices</string>
+
+
+    <string name="connection">Connection?</string>
+    <string name="search">Search</string>
+
+</resources>

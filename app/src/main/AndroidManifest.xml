@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <protected-broadcast android:name="com.commonlib.BROADCAST_CMD_FROM_BT" />
+    <protected-broadcast android:name="com.my.bt.BT_PHONE_BROADCAST" />
+    <protected-broadcast android:name="com.my.car.service.BROADCAST_CMD_TO_CAR_SERVICE_BT" />
+    <protected-broadcast android:name="com.my.canbox.BROADCAST_SEND_TO_CAN_FROM_BT" />
+
+    <application
+        android:name="com.zhuchao.android.bt.bt.ATBluetoothApp"
+        android:icon="@drawable/ic_launcher"
+        android:label="BlueTooth"
+        android:persistent="true"
+        android:supportsRtl="false">
+
+        <activity
+            android:name="com.zhuchao.android.bt.bt.ATBluetoothActivity"
+            android:excludeFromRecents="false"
+            android:icon="@drawable/ic_launcher"
+            android:label="@string/bluetooth_settings"
+            android:launchMode="singleInstance"
+            android:theme="@style/TranslucentTheme"
+            android:exported="true">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+                <action android:name="android.intent.action.CALL" />
+                <data android:scheme="tel" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.zhuchao.android.bt.bt.VoiceControlActivity"
+            android:icon="@drawable/mic_button"
+            android:label="@string/voicecontrol_name"
+            android:launchMode="singleInstance"
+            android:theme="@style/TranslucentTheme"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name="com.zhuchao.android.bt.bt.BR"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.zhuchao.android.bt.bt.ATBluetoothService">
+
+        </service>
+
+        <provider
+            android:name="com.zhuchao.android.bt.bt.BtPhoneBookProvider"
+            android:authorities="com.my.bt.BtPhoneBookProvider"
+            android:exported="true" />
+    </application>
+
+</manifest>

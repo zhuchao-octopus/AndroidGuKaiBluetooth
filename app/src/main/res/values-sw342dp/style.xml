@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="ButtonStyle1">
+        <item name="android:background">@drawable/button_click_back1</item>
+        <item name="android:textColor">#A4CFF2</item>
+        <item name="android:layout_height">100px</item>
+        <item name="android:layout_width">170px</item>
+        <item name="android:gravity">center</item>
+        <item name="android:focusable">true</item>
+        <item name="android:scaleType">center</item>
+    </style>
+
+    <style name="ButonStyleNum" parent="CommonStyleFonts">
+        <item name="android:background">@drawable/rec_btn</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:layout_width">180px</item>
+        <item name="android:layout_height">98px</item>
+        <item name="android:textSize">40.0px</item>
+        <item name="android:onClick">onDClick</item>
+        <item name="android:gravity">center</item>
+
+        <item name="android:focusable">true</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginLeft">4px</item>
+        <item name="android:layout_marginTop">4px</item>
+
+
+    </style>
+
+    <style name="ButonStyleNumSmall" parent="ButonStyleNumSmall1024"></style>
+
+    <style name="ButonStyleLeft" parent="CommonStyleFonts">
+        <item name="android:background">@drawable/tr_bg</item>
+        <item name="android:layout_width">145px</item>
+        <item name="android:layout_height">72px</item>
+        <item name="android:gravity">center</item>
+        <item name="android:onClick">onTlClick</item>
+
+        <item name="android:focusable">true</item>
+        <item name="android:scaleType">center</item>
+    </style>
+
+    <style name="AlertDialogCustom" parent="@android:style/Animation.Dialog">
+        <item name="android:fontFamily">casual</item>
+        <item name="android:textSize">30px</item>
+    </style>
+
+
+    <style name="Progress_circle">
+        <item name="android:maxWidth">49.0px</item>
+        <item name="android:maxHeight">49.0px</item>
+        <item name="android:indeterminateDrawable">@drawable/myprogressbar</item>
+        <item name="android:minWidth">20.0px</item>
+        <item name="android:minHeight">20.0px</item>
+    </style>
+
+    <style name="TextStyleSearch">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">22px</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">38px</item>
+        <item name="android:onClick">onClickSearch</item>
+        <item name="android:clickable">true</item>
+        <item name="android:background">@drawable/list_selector</item>
+
+    </style>
+
+    <style name="ButonStyleLeftPair" parent="ButonStyleLeft">
+        <item name="android:onClick">onPariClick</item>
+
+    </style>
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="bt_music">"BT MÚSICA"</string>
+
+    <string name="bluetooth_settings">"Teléfono"</string>
+    <string name="device_name">Nombre Dispositivo</string>
+    <string name="pin">PIN</string>
+    <string name="auto_connect">Conexión Automática</string>
+    <string name="auto_answer">"Descolgar Automático"</string>
+    <!--     <string name="alert_dialog_ok">DE ACUERDO</string> -->
+    <string name="alert_dialog_cancel">Cancelar</string>
+    <string name="remove_calllog">Borrar los registros</string>
+    <string name="download_pb_phone">Descargar Agenda</string>
+    <string name="download_pb_sim">"Descargar Agenda desde SIM"</string>
+    <string name="remove_pb_phone">Borrar Agenda</string>
+    <string name="remove_pb_favorite">"Eliminar Agenda en favoritos"</string>
+    <string name="remove_pb_sim">"Eliminar Agenda de SIM"</string>
+    <string name="remove_pair">Borrar teléfonos</string>
+    <string name="remove_one_pair">"Eliminar teléfono Vinculado?"</string>
+    <string name="record">Registros</string>
+    <string name="total">Total:</string>
+    <string name="text_connect">Conectado</string>
+    <string name="saving_phone_book">Guardando Agenda, espere por favor</string>
+    <string-array name="auto_array">
+        <item>Cerrar</item>
+        <item>Abrir</item>
+    </string-array>
+
+
+    <string name="if_dial">Discar:</string>
+
+    <string name="if_diconnect">Teléfono conectado, ¿desconectar?</string>
+
+    <string name="phone_book_connect_fail">Error en descarga, teléfono posiblemente no soportado</string>
+    <string name="connecting">Conectando</string>
+
+    <string name="dialing">"Llamando"</string>
+    <string name="incoming">Entrante</string>
+    <string name="calling">"Llamando"</string>
+    <string name="unknow">Desconocido</string>
+
+
+    <string name="a2dp_disconnect_info">Teléfono desconectado, buscar teléfono:%s,  </string>
+    <string name="a2dp_disconnect_info2">PIN:%s para conectar</string>
+
+
+    <string name="sorting">"Ordenando agenda de teléfono"</string>
+
+    <!--     <string name="get_pb_index">Get Phone book index</string> -->
+    <!--     <string name="get_phone">Get Phone book index</string> -->
+
+    <string name="help">Control por voz Bluetooth</string>
+    <!--     <string name="help1">"你可以这样说："</string> -->
+    <string name="help2">"Marcar"</string>
+    <string name="help3">"Llamar"</string>
+    <string name="speech_note1">"Seleccione uno para marcar"</string>
+
+
+    <string name="syncing">Sincronización de la agenda telefónica</string>
+    <string name="updating">Actualización de la agenda telefónica</string>
+
+    <string name="voicecontrol_name">Control de voz</string>
+    <string name="voicecontrol_notice">"Por favor, conecte el Bluetooth y descargue primero la agenda!"</string>
+
+    <string name="version">"Versión"</string>
+
+    <string name="bt_update">"¿Quieres actualizar?"</string>
+    <string name="add_to_favorite">"¿Quieres agregar a la lista de favoritos?"</string>
+    <string name="delete_favorite">"¿Quieres eliminar el favorito en la lista?"</string>
+
+    <string name="matchdevice">"Dispositivos vinculados"</string>
+    <string name="searchdevice">"Dispositivos disponibles"</string>
+
+    <string name="connection">"¿Conectar?"</string>
+    <string name="search">"Buscando"</string>
+</resources>

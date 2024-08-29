@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="74.0px"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/button_click_back1">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:layout_gravity="center"
+        android:layout_marginLeft="1.0dip"
+        android:layout_marginRight="1.0dip"
+        android:layout_marginTop="72.0px"
+        android:background="@drawable/history_listsplice" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="360.0px"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15px"
+        android:gravity="center_vertical"
+        android:singleLine="true"
+        android:textColor="#ffffff"
+        android:textSize="28.0px" />
+
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="360.0px"
+        android:layout_marginRight="0px"
+        android:gravity="center_vertical|left"
+        android:singleLine="true"
+        android:textColor="#ffffff"
+        android:textSize="28.0px" />
+
+    <ImageView
+        android:id="@+id/bt"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="24.0px"
+        android:scaleType="center"
+        android:src="@drawable/bt" />
+
+</RelativeLayout>

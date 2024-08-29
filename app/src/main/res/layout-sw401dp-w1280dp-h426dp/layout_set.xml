@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_set"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="top"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="80dp"
+    android:paddingRight="80dp">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10.0dp"
+            android:gravity="center|left"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="191.0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="85.0dip"
+                android:singleLine="true"
+                android:text="@string/device_name"
+                android:textColor="#ffffffff"
+                android:textSize="16.0sp" />
+
+            <TextView
+                android:id="@+id/btname"
+                android:layout_width="218.0dip"
+                android:layout_height="46.0dip"
+                android:layout_marginLeft="133.0dip"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:inputType="textFilter"
+                android:onClick="onSetClick"
+                android:singleLine="true"
+                android:tag="ak_paramter=96"
+                android:textColor="#ffffffff"
+                android:textSize="16.0sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="1046.0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5.0dip"
+            android:layout_marginRight="5.0dip"
+            android:layout_marginTop="1.0dip"
+            android:background="@drawable/history_listsplice" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:gravity="center|left"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="191.0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="85.0dip"
+                android:singleLine="true"
+                android:text="@string/pin"
+                android:textColor="#ffffffff"
+                android:textSize="16.0sp" />
+
+            <TextView
+                android:id="@+id/btpin"
+                android:layout_width="218.0dip"
+                android:layout_height="46.0dip"
+                android:layout_marginLeft="133.0dip"
+                android:gravity="center"
+                android:maxLength="4"
+                android:numeric="integer"
+                android:onClick="onSetClick"
+                android:singleLine="true"
+                android:tag="ak_paramter=96"
+                android:textColor="#ffffffff"
+                android:textSize="16.0sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="1046.0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5.0dip"
+            android:layout_marginRight="5.0dip"
+            android:layout_marginTop="1.0dip"
+            android:background="@drawable/history_listsplice" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:gravity="center|left"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="191.0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="85.0dip"
+                android:singleLine="true"
+                android:text="@string/auto_answer"
+                android:textColor="#ffffffff"
+                android:textSize="16.0sp" />
+
+            <ImageView
+                android:id="@+id/autoanswercheck"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:layout_marginLeft="194.0dip"
+                android:background="@drawable/onoff"
+                android:clickable="true"
+                android:onClick="onSetClick"
+                android:tag="ak_paramter=96" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="1046.0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5.0dip"
+            android:layout_marginRight="5.0dip"
+            android:layout_marginTop="1.0dip"
+            android:background="@drawable/history_listsplice" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="1.0dip"
+            android:gravity="center|left"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="191.0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="85.0dip"
+                android:singleLine="true"
+                android:text="@string/auto_connect"
+                android:textColor="#ffffffff"
+                android:textSize="16.0sp" />
+
+            <ImageView
+                android:id="@+id/autoconnectcheck"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:layout_marginLeft="194.0dip"
+                android:background="@drawable/onoff"
+                android:clickable="true"
+                android:onClick="onSetClick"
+                android:tag="ak_paramter=96" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="1046.0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5.0dip"
+            android:layout_marginRight="5.0dip"
+            android:layout_marginTop="1.0dip"
+            android:background="@drawable/history_listsplice" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/t_list"
+        style="@style/CommonListViewStyle1"
+        android:layout_width="726dp"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:background="#ff000000"
+        android:cacheColorHint="@android:color/transparent"
+        android:dividerHeight="2dp"
+        android:fadingEdge="none"
+        android:focusable="true"
+        android:paddingBottom="4dp"
+        android:paddingTop="4dp"
+        android:scrollbars="none" />
+
+</LinearLayout>

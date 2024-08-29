@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="bluetooth_settings">בלוטות</string>
+    <string name="alert_dialog_ok">בסדר</string>
+    <string name="alert_dialog_cancel">לְבַטֵל</string>
+    <string name="remove_calllog">מחק את כל רשומות השיחה</string>
+    <string name="download_pb_phone">הורד את הקשר שבטלפון</string>
+
+    <string name="remove_pb_phone">מחיקת אנשי קשר בטלפון</string>
+
+    <string name="remove_pair">מחק את כל רשומות הזיווג</string>
+    <string name="record">רשום טלפון</string>
+    <string name="total">בסך הכל:</string>
+    <string name="text_connect">כבר מחובר</string>
+    <string name="if_diconnect">Connected, אם אתה צריך להתנתק?</string>
+
+    <string-array name="auto_array">
+        <item>סגירה</item>
+        <item>פתח</item>
+    </string-array>
+
+    <string name="saving_phone_book">שמירת אנשי קשר, אנא המתן</string>
+    <string name="connecting">חיבור</string>
+    <string name="phone_book_connect_fail">קשר טלפוני נכשל חיבור</string>
+    <string name="dialing">חִיוּג</string>
+    <string name="incoming">מברק נכנס</string>
+
+    <string name="unknow">לא ידוע</string>
+
+    <string name="a2dp_disconnect_info">Bluetooth אינו מחובר, מכשיר החיפוש:%s, </string>
+    <string name="a2dp_disconnect_info2">PIN:%s</string>
+
+    <string name="device_name">שם המכשיר</string>
+    <string name="pin">מספר PIN</string>
+    <string name="auto_connect">התחברות אוטומטית</string>
+    <string name="auto_answer">תשובה אוטומטית</string>
+
+
+    <string name="if_dial">שיחה:</string>
+
+
+    <string name="sorting">סדר מחדש בספר הטלפונים</string>
+
+    <string name="add_to_favorite">"להוסיף למועדפים?"</string>
+    <string name="delete_favorite">"מחק?"</string>
+
+</resources>

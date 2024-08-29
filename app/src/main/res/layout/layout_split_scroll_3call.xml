@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhuchao.android.bt.view.SplitHScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/hscrollview_container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:focusable="false"
+    android:background="#00000000"
+    android:fitsSystemWindows="true">
+
+    <include layout="@layout/atbluetooth_3call" />
+
+</com.zhuchao.android.bt.view.SplitHScrollView>

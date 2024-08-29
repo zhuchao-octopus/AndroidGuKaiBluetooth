@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/screen1_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="#00000000"
+    android:gravity="bottom">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250px">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/com_button_back"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60px"
+                android:background="@drawable/com_button10"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/incoming"
+                    android:layout_width="620px"
+                    android:layout_height="60px"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="26px"
+                    android:singleLine="true"
+                    android:textAppearance="@style/CommonStyleFonts"
+                    android:textColor="#ffffff"
+                    android:textSize="38px" />
+
+                <TextView
+                    android:id="@+id/calling_time"
+                    android:layout_width="180px"
+                    android:layout_height="70px"
+                    android:gravity="right|center_vertical"
+                    android:paddingRight="20px"
+                    android:singleLine="true"
+                    android:textAppearance="@style/CommonStyleFonts"
+                    android:textColor="#ffffff"
+                    android:textSize="32px" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#44000000" />
+
+            <LinearLayout
+                android:id="@+id/keyboard_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center">
+
+                        <TextView
+                            android:id="@+id/calling_num1"
+                            style="@style/ButonStyleNumSmall800"
+                            android:text="@string/digit_1" />
+
+                        <TextView
+                            android:id="@+id/calling_num2"
+                            style="@style/ButonStyleNumSmall800"
+                            android:text="@string/digit_2" />
+
+                        <TextView
+                            android:id="@+id/calling_num3"
+                            style="@style/ButonStyleNumSmall800"
+                            android:text="@string/digit_3" />
+
+                        <TextView
+                            android:id="@+id/calling_num4"
+                            style="@style/ButonStyleNumSmall800"
+                            android:text="@string/digit_4" />
+
+                        <TextView
+                            android:id="@+id/calling_num5"
+                            style="@style/ButonStyleNumSmall800"
+                            android:text="@string/digit_5" />
+
+                        <TextView
+                            android:id="@+id/calling_num_xing"
+                            style="@style/ButonStyleNumSmall800"
+                            android:text="@string/digit_x0" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center">
+
+                        <TextView
+                            android:id="@+id/calling_num6"
+                            style="@style/ButonStyleNumSmall800"
+                            android:text="@string/digit_6" />
+
+                        <TextView
+                            android:id="@+id/calling_num7"
+                            style="@style/ButonStyleNumSmall800"
+                            android:text="@string/digit_7" />
+
+                        <TextView
+                            android:id="@+id/calling_num8"
+                            style="@style/ButonStyleNumSmall800"
+                            android:text="@string/digit_8" />
+
+                        <TextView
+                            android:id="@+id/calling_num9"
+                            style="@style/ButonStyleNumSmall800"
+                            android:text="@string/digit_9" />
+
+                        <TextView
+                            android:id="@+id/calling_num0"
+                            style="@style/ButonStyleNumSmall800"
+                            android:text="@string/digit_0" />
+
+                        <TextView
+                            android:id="@+id/calling_num_jing"
+                            style="@style/ButonStyleNumSmall800"
+                            android:text="@string/digit_x1" />
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#44000000" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="72px"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/keyboard"
+                    android:layout_width="200px"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/button_click_back2"
+                    android:focusable="true"
+                    android:scaleType="center"
+                    android:src="@drawable/icon_17" />
+
+                <ImageView
+                    android:id="@+id/answering"
+                    android:layout_width="200px"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/button_click_back2"
+                    android:focusable="true"
+                    android:scaleType="center"
+                    android:src="@drawable/incoming_call" />
+
+                <ImageView
+                    android:id="@+id/reject"
+                    android:layout_width="200px"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/button_click_back2"
+                    android:focusable="true"
+                    android:scaleType="center"
+                    android:src="@drawable/incoming_hung" />
+
+                <ImageView
+                    android:id="@+id/calling_mute"
+                    android:layout_width="200px"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/button_click_back2"
+                    android:focusable="true"
+                    android:scaleType="center"
+                    android:src="@drawable/voice"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/calling_voice"
+                    android:layout_width="200px"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/button_click_back2"
+                    android:focusable="true"
+                    android:scaleType="center"
+                    android:src="@drawable/voice" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/incoming_hide"
+            android:layout_width="68px"
+            android:layout_height="68px"
+            android:background="@drawable/back1"
+            android:focusable="true"
+            android:layout_alignParentBottom="true"
+            android:scaleType="center"
+            android:tag="ak_paramter=100,50"
+            android:src="@drawable/voice" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_set"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="top"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="110px"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="170px"
+            android:layout_height="200px"
+            android:layout_marginLeft="130px"
+            android:background="@drawable/setup_bg"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="10px"
+            android:paddingRight="10px">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/device_name"
+                android:textColor="#ffffffff"
+                android:textSize="24.0px" />
+
+            <TextView
+                android:id="@+id/btname"
+                android:layout_width="fill_parent"
+                android:layout_height="45px"
+                android:layout_marginTop="60px"
+                android:background="@drawable/setup_textbg"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:inputType="textFilter"
+                android:onClick="onSetClick"
+                android:singleLine="true"
+                android:tag="ak_paramter=96"
+                android:textColor="#ffffffff"
+                android:textSize="24.0px" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="170px"
+            android:layout_height="200px"
+            android:layout_marginLeft="40px"
+            android:background="@drawable/setup_bg"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="10px"
+            android:paddingRight="10px">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:gravity="center"
+                android:text="@string/pin"
+                android:textColor="#ffffffff"
+                android:textSize="24.0px" />
+
+            <TextView
+                android:id="@+id/btpin"
+                android:layout_width="fill_parent"
+                android:layout_height="45px"
+                android:background="@drawable/setup_textbg"
+                android:gravity="center"
+                android:maxLength="4"
+                android:numeric="integer"
+                android:layout_marginTop="60px"
+                android:onClick="onSetClick"
+                android:singleLine="true"
+                android:tag="ak_paramter=96"
+                android:textColor="#ffffffff"
+                android:textSize="24.0px" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="170px"
+            android:layout_height="200px"
+            android:background="@drawable/setup_bg"
+            android:gravity="center"
+            android:layout_marginLeft="40px"
+            android:orientation="vertical"
+            android:paddingLeft="10px"
+            android:paddingRight="10px">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:gravity="center"
+                android:text="@string/auto_answer"
+                android:textColor="#ffffffff"
+                android:textSize="24.0px" />
+
+            <ImageView
+                android:id="@+id/autoanswercheck"
+                android:layout_width="86px"
+                android:layout_height="45px"
+                android:background="@drawable/onoff"
+                android:clickable="true"
+                android:layout_marginTop="60px"
+                android:onClick="onSetClick"
+                android:scaleType="center"
+                android:tag="ak_paramter=96" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="170px"
+            android:layout_height="200px"
+            android:background="@drawable/setup_bg"
+            android:gravity="center"
+            android:layout_marginLeft="40px"
+            android:orientation="vertical"
+            android:paddingLeft="10px"
+            android:paddingRight="10px">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/auto_connect"
+                android:textColor="#ffffffff"
+                android:textSize="24.0px" />
+
+            <ImageView
+                android:id="@+id/autoconnectcheck"
+                android:layout_width="86px"
+                android:layout_height="45px"
+                android:background="@drawable/onoff"
+                android:clickable="true"
+                android:onClick="onSetClick"
+                android:layout_marginTop="60px"
+                android:tag="ak_paramter=96" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/t_list"
+        style="@style/CommonListViewStyle1"
+        android:layout_width="726px"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0px"
+        android:background="#ff000000"
+        android:cacheColorHint="@android:color/transparent"
+        android:dividerHeight="2px"
+        android:fadingEdge="none"
+        android:focusable="true"
+        android:paddingBottom="4px"
+        android:paddingTop="4px"
+        android:scrollbars="none" />
+
+</LinearLayout>

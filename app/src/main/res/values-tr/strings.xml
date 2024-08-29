@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bt_music">"BT Müzik"</string>
+    <string name="bluetooth_settings">"Bluetooth"</string>
+    <string name="device_name">"Cihaz adı"</string>
+    <string name="pin">"Şifre"</string>
+    <string name="auto_connect">"Otomatik Bağlan"</string>
+    <string name="auto_answer">"Otomatik Cevap"</string>
+    <string name="alert_dialog_ok">"Tamam"</string>
+    <string name="alert_dialog_cancel">"İptal"</string>
+    <string name="remove_calllog">"Tüm arama kayıtlarını silin"</string>
+    <string name="download_pb_phone">"Telefon rehberi indir"</string>
+    <string name="download_pb_sim">"Sim kart rehberini indir"</string>
+    <string name="remove_pb_phone">"Telefon rehberini sil"</string>
+    <string name="remove_pb_favorite">"Favori kişileri silin"</string>
+    <string name="remove_pb_sim">"Sim kart rehberini silin ."</string>
+    <string name="remove_pair">"Tüm eşleşme kayıtları silinsin mi?"</string>
+    <string name="remove_one_pair">"Bu eşleşme kaydı silinsin mi?"</string>
+    <string name="record">"Telefon kayıtları"</string>
+    <string name="total">"Toplam:"</string>
+    <string name="text_connect">"Bağlandı"</string>
+    <string name="saving_phone_book">"Telefon rehberi kaydediliyor , lütfen bekleyin"</string>
+    <string-array name="auto_array">
+        <item>"Kapat"</item>
+        <item>"Aç"</item>
+    </string-array>
+    <string name="pause">"Durdur"</string>
+    <string name="if_dial">"Ara:"</string>
+    <string name="if_del">"Sil:"</string>
+    <string name="if_diconnect">"Cihaza Bağlı , Bağlantı Kesilsin mi ?"</string>
+    <string name="phone_book_connect_fail">"Telefon rehberi indirme başarısız , telefon desteklenmiyor."</string>
+    <string name="connecting">"Bağlanıyor"</string>
+    <string name="dialing">"Arıyor"</string>
+    <string name="incoming">"Gelen arama"</string>
+    <string name="calling">"Arıyor"</string>
+    <string name="unknow">"Bilinmiyor"</string>
+    <string name="a2dp_disconnect_info">"Cihaz bağlantısı besildi , Cihaz ara:%s,"</string>
+    <string name="a2dp_disconnect_info2">"PIN:%s Bağla"</string>
+    <string name="sorting">"Telefon rehberi yeniden sıralanıyor"</string>
+    <string name="help">"BT Sesli Kontrol"</string>
+    <string name="help2">"Çevir"</string>
+    <string name="help3">"Ara"</string>
+    <string name="speech_note1">"Arama için birini seç"</string>
+    <string name="syncing">"Telefon rehberi yenileniyor"</string>
+    <string name="updating">"Telefon rehberi güncelleniyor"</string>
+    <string name="voicecontrol_name">"Sesli komut"</string>
+    <string name="voicecontrol_notice">"Lütfen BT bağlanın ve telefon rehberini indirin!"</string>
+    <string name="version">"Versiyon"</string>
+    <string name="bt_update">"Güncellemek ister misiniz?"</string>
+    <string name="add_to_favorite">"Favori listesine eklemek ister misiniz?"</string>
+    <string name="delete_favorite">"Listedeki favoriyi silmek istiyor musunuz?"</string>
+    <string name="matchdevice">"Eşleşmiş cihazlar"</string>
+    <string name="searchdevice">"Uygun Cihazlar"</string>
+    <string name="connection">"Bağlansın mı ?"</string>
+    <string name="search">"Tarama"</string>
+</resources>

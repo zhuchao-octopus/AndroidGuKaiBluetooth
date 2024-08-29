@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_pair"
+    android:layout_width="931.0px"
+    android:layout_height="344.0px"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="top"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bt_tr_pb_bg_n1"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="0px"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+                <RelativeLayout
+                    android:layout_width="620.0px"
+                    android:layout_height="344.0px"
+                    android:layout_marginLeft="50.0px"
+                    android:gravity="center">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="306.0px"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:gravity="center_horizontal"
+                        android:visibility="visible">
+
+                        <ScrollView
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="38px"
+                                    android:background="#00000000"
+                                    android:paddingLeft="10px"
+                                    android:text="@string/matchdevice"
+                                    android:gravity="left"
+                                    android:textColor="#ffffff"
+                                    android:textSize="26px" />
+
+                                <View
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="1px"
+                                    android:background="#ff222222" />
+
+                                <ListView
+                                    android:id="@+id/list_paired"
+                                    style="@style/CommonListViewStyle1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0px"
+                                    android:layout_alignWithParentIfMissing="true"
+                                    android:layout_below="@+id/tr_edit"
+                                    android:layout_centerInParent="true"
+                                    android:cacheColorHint="@android:color/transparent"
+                                    android:dividerHeight="2px"
+                                    android:fadingEdge="none"
+                                    android:focusable="true"
+                                    android:paddingBottom="2px"
+                                    android:paddingLeft="0px"
+                                    android:paddingRight="0px"
+                                    android:paddingTop="2px"
+                                    android:scrollbars="none" />
+
+                                <TextView
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="38px"
+                                    android:background="#00000000"
+                                    android:gravity="left"
+                                    android:paddingLeft="10px"
+                                    android:text="@string/searchdevice"
+                                    android:textColor="#ffffff"
+                                    android:textSize="26px" />
+
+                                <View
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="1px"
+                                    android:background="#ff222222" />
+
+                                <ListView
+                                    android:id="@+id/list_pair_available"
+                                    style="@style/CommonListViewStyle1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0px"
+                                    android:layout_alignWithParentIfMissing="true"
+                                    android:layout_below="@+id/tr_edit"
+                                    android:layout_centerInParent="true"
+                                    android:cacheColorHint="@android:color/transparent"
+                                    android:dividerHeight="2px"
+                                    android:fadingEdge="none"
+                                    android:focusable="true"
+                                    android:paddingBottom="2px"
+                                    android:paddingLeft="0px"
+                                    android:paddingRight="0px"
+                                    android:paddingTop="2px"
+                                    android:scrollbars="none" />
+                            </LinearLayout>
+                        </ScrollView>
+
+                        <ProgressBar
+                            android:id="@+id/tr_progress"
+                            style="?android:attr/progressBarStyleLarge"
+                            android:layout_width="67px"
+                            android:layout_height="67px"
+                            android:layout_centerInParent="true"
+                            android:layout_marginBottom="4px"
+                            android:visibility="invisible" />
+                    </RelativeLayout>
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="50.0px"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/pair_search"
+                        style="@style/ButonStyleLeftPair"
+                        android:src="@drawable/search" />
+
+                    <ImageView
+                        android:id="@+id/pair_connect"
+                        style="@style/ButonStyleLeftPair"
+                        android:src="@drawable/pair_connect" />
+
+                    <ImageView
+                        android:id="@+id/pair_disconnect"
+                        style="@style/ButonStyleLeftPair"
+                        android:src="@drawable/disconnect" />
+
+                    <ImageView
+                        android:id="@+id/pair_del"
+                        style="@style/ButonStyleLeftPair"
+                        android:src="@drawable/remove" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

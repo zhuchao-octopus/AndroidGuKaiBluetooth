@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tr_dial"
+    android:layout_width="656px"
+    android:layout_height="420px"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="88px"
+        android:gravity="center_vertical">
+
+        <LinearLayout
+            android:layout_width="490px"
+            android:layout_height="fill_parent"
+            android:background="@drawable/dialnumberbg"
+            android:orientation="horizontal"
+            android:paddingBottom="5px"
+            android:paddingTop="5px">
+
+            <LinearLayout
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <com.zhuchao.android.bt.view.MarqueeTextView
+                    android:id="@+id/digit"
+                    android:layout_width="match_parent"
+                    android:layout_height="48px"
+                    android:gravity="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="32px" />
+
+                <TextView
+                    android:id="@+id/dial_status"
+                    android:layout_width="fill_parent"
+                    android:layout_height="30px"
+                    android:gravity="center"
+                    android:textColor="#ffe0e0e0"
+                    android:textSize="20px" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_3call"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <com.zhuchao.android.bt.view.MarqueeTextView
+                    android:id="@+id/digit_3call"
+                    android:layout_width="match_parent"
+                    android:layout_height="48px"
+                    android:gravity="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="40px" />
+
+                <TextView
+                    android:id="@+id/dial_status_3call"
+                    android:layout_width="fill_parent"
+                    android:layout_height="30px"
+                    android:gravity="center"
+                    android:textColor="#ffe0e0e0"
+                    android:textSize="20px" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/delete"
+            android:layout_width="150px"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20px"
+            android:background="@drawable/dial_back"
+            android:onClick="onClick" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:paddingLeft="30px"
+        android:paddingTop="5px">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/n1"
+                    android:layout_width="150px"
+                    android:layout_height="60px"
+                    android:background="@drawable/rec_btn"
+                    android:clickable="true"
+                    android:onClick="onDClick"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/b_1" />
+
+                <ImageButton
+                    android:id="@+id/n2"
+                    android:layout_width="150px"
+                    android:layout_height="60px"
+                    android:layout_marginLeft="5px"
+                    android:background="@drawable/rec_btn"
+                    android:onClick="onDClick"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/b_2" />
+
+                <ImageButton
+                    android:id="@+id/n3"
+                    android:layout_width="150px"
+                    android:layout_height="60px"
+                    android:layout_marginLeft="5px"
+                    android:background="@drawable/rec_btn"
+                    android:onClick="onDClick"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/b_3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2px"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/n4"
+                    android:layout_width="150px"
+                    android:layout_height="60px"
+                    android:background="@drawable/rec_btn"
+                    android:onClick="onDClick"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/b_4" />
+
+                <ImageButton
+                    android:id="@+id/n5"
+                    android:layout_width="150px"
+                    android:layout_height="60px"
+                    android:layout_marginLeft="5px"
+                    android:background="@drawable/rec_btn"
+                    android:onClick="onDClick"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/b_5" />
+
+                <ImageButton
+                    android:id="@+id/n6"
+                    android:layout_width="150px"
+                    android:layout_height="60px"
+                    android:layout_marginLeft="5px"
+                    android:background="@drawable/rec_btn"
+                    android:onClick="onDClick"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/b_6" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2px"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/n7"
+                    android:layout_width="150px"
+                    android:layout_height="60px"
+                    android:background="@drawable/rec_btn"
+                    android:onClick="onDClick"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/b_7" />
+
+                <ImageButton
+                    android:id="@+id/n8"
+                    android:layout_width="150px"
+                    android:layout_height="60px"
+                    android:layout_marginLeft="5px"
+                    android:background="@drawable/rec_btn"
+                    android:onClick="onDClick"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/b_8" />
+
+                <ImageButton
+                    android:id="@+id/n9"
+                    android:layout_width="150px"
+                    android:layout_height="60px"
+                    android:layout_marginLeft="5px"
+                    android:background="@drawable/rec_btn"
+                    android:onClick="onDClick"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/b_9" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2px"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/nx"
+                    android:layout_width="150px"
+                    android:layout_height="60px"
+                    android:background="@drawable/rec_btn"
+                    android:onClick="onDClick"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/b_s" />
+
+                <ImageButton
+                    android:id="@+id/n0"
+                    android:layout_width="150px"
+                    android:layout_height="60px"
+                    android:layout_marginLeft="5px"
+                    android:background="@drawable/rec_btn"
+                    android:onClick="onDClick"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/b_0" />
+
+                <ImageButton
+                    android:id="@+id/nj"
+                    android:layout_width="150px"
+                    android:layout_height="60px"
+                    android:layout_marginLeft="5px"
+                    android:background="@drawable/rec_btn"
+                    android:onClick="onDClick"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/b_h" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2px"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/call3_add"
+                    android:layout_width="150px"
+                    android:layout_height="60px"
+                    android:background="@drawable/rec_btn"
+                    android:onClick="onDialclick"
+                    android:src="@drawable/call3_add" />
+
+                <ImageButton
+                    android:id="@+id/call3_swtich"
+                    android:layout_width="150px"
+                    android:layout_height="60px"
+                    android:layout_marginLeft="5px"
+                    android:background="@drawable/rec_btn"
+                    android:onClick="onDialclick"
+                    android:src="@drawable/call3_switch" />
+
+                <ImageButton
+                    android:id="@+id/call3_merge"
+                    android:layout_width="150px"
+                    android:layout_height="60px"
+                    android:layout_marginLeft="5px"
+                    android:background="@drawable/rec_btn"
+                    android:onClick="onDialclick"
+                    android:src="@drawable/call3_merge" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="150px"
+                android:layout_height="150px"
+                android:layout_marginLeft="5px"
+                android:layout_marginTop="0px"
+                android:background="@drawable/key_nor"
+                android:orientation="vertical"
+                android:paddingBottom="3px"
+                android:paddingLeft="4px"
+                android:paddingRight="4px"
+                android:paddingTop="3px">
+
+                <ImageButton
+                    android:id="@+id/dial_dialout"
+                    android:layout_width="match_parent"
+                    android:layout_height="72px"
+                    android:background="@drawable/rec_btn_dial"
+                    android:onClick="onDialclick"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ico_dailout" />
+
+                <ImageButton
+                    android:id="@+id/dial_handup"
+                    android:layout_width="match_parent"
+                    android:layout_height="72px"
+                    android:background="@drawable/rec_btn_hang"
+                    android:onClick="onDialclick"
+                    android:src="@drawable/ico_handup" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/dial_voiceswitch"
+                android:layout_width="150px"
+                android:layout_height="150px"
+                android:layout_marginLeft="5px"
+                android:layout_marginTop="5px"
+                android:background="@drawable/rec_btn"
+                android:onClick="onDialclick"
+                android:src="@drawable/ico_btpswitch" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

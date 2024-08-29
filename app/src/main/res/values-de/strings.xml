@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="matchdevice">Gekoppelte Geräte</string>
+    <string name="searchdevice">Verfügbare Geräte</string>
+
+</resources>

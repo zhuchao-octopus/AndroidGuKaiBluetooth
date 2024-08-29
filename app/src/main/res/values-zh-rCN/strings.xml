@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="bluetooth_settings">蓝牙</string>
+    <string name="bt_music">蓝牙音乐</string>
+    <string name="device_name">设备名称</string>
+    <string name="pin">PIN码</string>
+    <string name="auto_connect">自动连接</string>
+    <string name="auto_answer">自动接听</string>
+    <string name="alert_dialog_ok">确定</string>
+    <string name="alert_dialog_cancel">取消</string>
+    <string name="remove_calllog">删除全部通话记录</string>
+    <string name="download_pb_phone">下载手机电话本</string>
+    <string name="download_pb_sim">下载SIM卡电话本</string>
+    <string name="remove_pb_phone">删除手机电话本</string>
+    <string name="remove_pb_sim">删除SIM卡电话本</string>
+    <string name="remove_pair">删除全部配对记录</string>
+    <string name="remove_pb_favorite">删除收藏列表电话本</string>
+    <string name="record">条电话记录</string>
+    <string name="total">一共有:</string>
+    <string name="text_connect">已连接</string>
+    <string name="if_diconnect">当前已连接，是否断开连接？</string>
+
+    <string-array name="auto_array">
+        <item>关闭</item>
+        <item>打开</item>
+    </string-array>
+
+    <string name="saving_phone_book">正在保存电话本,请耐心等待</string>
+    <string name="connecting">正在连接</string>
+    <string name="phone_book_connect_fail">电话本服务连接失败，停止下载。</string>
+    <string name="dialing">拨号中</string>
+    <string name="incoming">来电</string>
+
+    <string name="unknow">未知</string>
+
+    <string name="a2dp_disconnect_info">蓝牙设备未连接，请搜索设备:%s, </string>
+    <string name="a2dp_disconnect_info2">PIN码:%s,进行连接</string>
+
+
+    <string name="if_dial">拨打电话:</string>
+
+    <string name="if_del">删除:</string>
+
+    <string name="sorting">正在重新排序电话本</string>
+
+    <string name="help">蓝牙语音控制</string>
+    <!--     <string name="help1">"你可以这样说"</string> -->
+    <string name="help2">"拨打:"</string>
+    <string name="help3">"呼叫:"</string>
+
+    <string name="speech_note1">"请选择一个号码拨打"</string>
+
+
+    <string name="syncing">正在同步电话本 </string>
+    <string name="updating">正在更新电话本 </string>
+
+    <string name="voicecontrol_notice">请先连接蓝牙并下载蓝牙电话本!</string>
+
+
+    <string name="bt_update">需要更新蓝牙固件吗?</string>
+
+    <string name="add_to_favorite">你想添加此联系人到收藏列表中吗?</string>
+
+    <string name="delete_favorite">你想删除此联系人吗?</string>
+
+
+    <string name="matchdevice">已配对设备</string>
+    <string name="searchdevice">可用设备</string>
+
+
+    <string name="connection">连接?</string>
+    <string name="pause">暂停</string>
+</resources>

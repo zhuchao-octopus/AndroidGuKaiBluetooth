@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/keyboardbg">
+
+    <TextView
+        android:id="@+id/keyА"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="23.0px"
+        android:layout_y="14.0px"
+        android:background="@drawable/keyboardbtn"
+        android:clickable="true"
+        android:enabled="false"
+        android:gravity="center"
+        android:text="@string/LА"
+        android:textSize="26.0px" />
+
+    <TextView
+        android:id="@+id/keyБ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="99.0px"
+        android:layout_y="14.0px"
+        android:background="@drawable/keyboardbtn"
+        android:clickable="true"
+        android:enabled="false"
+        android:gravity="center"
+        android:text="@string/LБ"
+        android:textSize="26.0px" />
+
+    <TextView
+        android:id="@+id/keyВ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="175.0px"
+        android:layout_y="14.0px"
+        android:background="@drawable/keyboardbtn"
+        android:clickable="true"
+        android:enabled="false"
+        android:gravity="center"
+        android:text="@string/LВ"
+        android:textSize="26.0px" />
+
+    <TextView
+        android:id="@+id/keyГ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="251.0px"
+        android:layout_y="14.0px"
+        android:background="@drawable/keyboardbtn"
+        android:clickable="true"
+        android:enabled="false"
+        android:gravity="center"
+        android:text="@string/LГ"
+        android:textSize="26.0px" />
+
+    <TextView
+        android:id="@+id/keyД"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="327.0px"
+        android:layout_y="14.0px"
+        android:background="@drawable/keyboardbtn"
+        android:clickable="true"
+        android:enabled="false"
+        android:gravity="center"
+        android:text="@string/LД"
+        android:textSize="26.0px" />
+
+    <TextView
+        android:id="@+id/keyЕ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="403.0px"
+        android:layout_y="14.0px"
+        android:background="@drawable/keyboardbtn"
+        android:clickable="true"
+        android:enabled="false"
+        android:gravity="center"
+        android:text="@string/LЕ"
+        android:textSize="26.0px" />
+
+    <TextView
+        android:id="@+id/keyЁ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="23.0px"
+        android:layout_y="80.0px"
+        android:background="@drawable/keyboardbtn"
+        android:clickable="true"
+        android:enabled="false"
+        android:gravity="center"
+        android:text="@string/LЁ"
+        android:textSize="26.0px" />
+
+    <TextView
+        android:id="@+id/keyЖ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="99.0px"
+        android:layout_y="80.0px"
+        android:background="@drawable/keyboardbtn"
+        android:clickable="true"
+        android:enabled="false"
+        android:gravity="center"
+        android:text="@string/LЖ"
+        android:textSize="26.0px" />
+
+    <TextView
+        android:id="@+id/keyЗ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="175.0px"
+        android:layout_y="80.0px"
+        android:background="@drawable/keyboardbtn"
+        android:clickable="true"
+        android:enabled="false"
+        android:gravity="center"
+        android:text="@string/LЗ"
+        android:textSize="26.0px" />
+
+    <TextView
+        android:id="@+id/keyИ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="251.0px"
+        android:layout_y="80.0px"
+        android:background="@drawable/keyboardbtn"
+        android:clickable="true"
+        android:enabled="false"
+        android:gravity="center"
+        android:text="@string/LИ"
+        android:textSize="26.0px" />
+
+    <TextView
+        android:id="@+id/keyЙ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="327.0px"
+        android:layout_y="80.0px"
+        android:background="@drawable/keyboardbtn"
+        android:clickable="true"
+        android:enabled="false"
+        android:gravity="center"
+        android:text="@string/LЙ"
+        android:textSize="26.0px" />
+
+    <TextView
+        android:id="@+id/keyК"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="403.0px"
+        android:layout_y="80.0px"
+        android:background="@drawable/keyboardbtn"
+        android:clickable="true"
+        android:enabled="false"
+        android:gravity="center"
+        android:text="@string/LК"
+        android:textSize="26.0px" />
+
+    <TextView
+        android:id="@+id/keyЛ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="23.0px"
+        android:layout_y="146.0px"
+        android:background="@drawable/keyboardbtn"
+        android:clickable="true"
+        android:enabled="false"
+        android:gravity="center"
+        android:text="@string/LЛ"
+        android:textSize="26.0px" />
+
+    <TextView
+        android:id="@+id/keyМ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="99.0px"
+        android:layout_y="146.0px"
+        android:background="@drawable/keyboardbtn"
+        android:clickable="true"
+        android:enabled="false"
+        android:gravity="center"
+        android:text="@string/LМ"
+        android:textSize="26.0px" />
+
+    <TextView
+        android:id="@+id/keyН"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="175.0px"
+        android:layout_y="146.0px"
+        android:background="@drawable/keyboardbtn"
+        android:clickable="true"
+        android:enabled="false"
+        android:gravity="center"
+        android:text="@string/LН"
+        android:textSize="26.0px" />
+
+    <TextView
+        android:id="@+id/keyО"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="251.0px"
+        android:layout_y="146.0px"
+        android:background="@drawable/keyboardbtn"
+        android:clickable="true"
+        android:enabled="false"
+        android:gravity="center"
+        android:text="@string/LО"
+        android:textSize="26.0px" />
+
+    <TextView
+        android:id="@+id/keyП"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="327.0px"
+        android:layout_y="146.0px"
+        android:background="@drawable/keyboardbtn"
+        android:clickable="true"
+        android:enabled="false"
+        android:gravity="center"
+        android:text="@string/LП"
+        android:textSize="26.0px" />
+
+    <TextView
+        android:id="@+id/keyР"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="403.0px"
+        android:layout_y="146.0px"
+        android:background="@drawable/keyboardbtn"
+        android:clickable="true"
+        android:enabled="false"
+        android:gravity="center"
+        android:text="@string/LР"
+        android:textSize="26.0px" />
+
+    <TextView
+        android:id="@+id/keyС"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="23.0px"
+        android:layout_y="212.0px"
+        android:background="@drawable/keyboardbtn"
+        android:clickable="true"
+        android:enabled="false"
+        android:gravity="center"
+        android:text="@string/LС"
+        android:textSize="26.0px" />
+
+    <TextView
+        android:id="@+id/keyТ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="99.0px"
+        android:layout_y="212.0px"
+        android:background="@drawable/keyboardbtn"
+        android:clickable="true"
+        android:enabled="false"
+        android:gravity="center"
+        android:text="@string/LТ"
+        android:textSize="26.0px" />
+
+    <TextView
+        android:id="@+id/keyУ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="175.0px"
+        android:layout_y="212.0px"
+        android:background="@drawable/keyboardbtn"
+        android:clickable="true"
+        android:enabled="false"
+        android:gravity="center"
+        android:text="@string/LУ"
+        android:textSize="26.0px" />
+
+    <TextView
+        android:id="@+id/keyФ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="251.0px"
+        android:layout_y="212.0px"
+        android:background="@drawable/keyboardbtn"
+        android:clickable="true"
+        android:enabled="false"
+        android:gravity="center"
+        android:text="@string/LФ"
+        android:textSize="26.0px" />
+
+    <TextView
+        android:id="@+id/keyХ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="327.0px"
+        android:layout_y="212.0px"
+        android:background="@drawable/keyboardbtn"
+        android:clickable="true"
+        android:enabled="false"
+        android:gravity="center"
+        android:text="@string/LХ"
+        android:textSize="26.0px" />
+
+    <TextView
+        android:id="@+id/keyЦ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="403.0px"
+        android:layout_y="212.0px"
+        android:background="@drawable/keyboardbtn"
+        android:clickable="true"
+        android:enabled="false"
+        android:gravity="center"
+        android:text="@string/LЦ"
+        android:textSize="26.0px" />
+
+    <TextView
+        android:id="@+id/keyЧ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="23.0px"
+        android:layout_y="278.0px"
+        android:background="@drawable/keyboardbtn"
+        android:clickable="true"
+        android:enabled="false"
+        android:gravity="center"
+        android:text="@string/LЧ"
+        android:textSize="26.0px" />
+
+    <TextView
+        android:id="@+id/keyШ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="99.0px"
+        android:layout_y="278.0px"
+        android:background="@drawable/keyboardbtn"
+        android:clickable="true"
+        android:enabled="false"
+        android:gravity="center"
+        android:text="@string/LШ"
+        android:textSize="26.0px" />
+
+    <TextView
+        android:id="@+id/keyЩ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="175.0px"
+        android:layout_y="278.0px"
+        android:background="@drawable/keyboardbtn"
+        android:clickable="true"
+        android:enabled="false"
+        android:gravity="center"
+        android:text="@string/LЩ"
+        android:textSize="26.0px" />
+
+    <TextView
+        android:id="@+id/keyЪ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="251.0px"
+        android:layout_y="278.0px"
+        android:background="@drawable/keyboardbtn"
+        android:clickable="true"
+        android:enabled="false"
+        android:gravity="center"
+        android:text="@string/LЪ"
+        android:textSize="26.0px" />
+
+    <TextView
+        android:id="@+id/keyЫ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="327.0px"
+        android:layout_y="278.0px"
+        android:background="@drawable/keyboardbtn"
+        android:clickable="true"
+        android:enabled="false"
+        android:gravity="center"
+        android:text="@string/LЫ"
+        android:textSize="26.0px" />
+
+    <TextView
+        android:id="@+id/keyЬ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="403.0px"
+        android:layout_y="278.0px"
+        android:background="@drawable/keyboardbtn"
+        android:clickable="true"
+        android:enabled="false"
+        android:gravity="center"
+        android:text="@string/LЬ"
+        android:textSize="26.0px" />
+
+    <TextView
+        android:id="@+id/keyЭ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="23.0px"
+        android:layout_y="344.0px"
+        android:background="@drawable/keyboardbtn"
+        android:clickable="true"
+        android:enabled="false"
+        android:gravity="center"
+        android:text="@string/LЭ"
+        android:textSize="26.0px" />
+
+    <TextView
+        android:id="@+id/keyЮ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="99.0px"
+        android:layout_y="344.0px"
+        android:background="@drawable/keyboardbtn"
+        android:clickable="true"
+        android:enabled="false"
+        android:gravity="center"
+        android:text="@string/LЮ"
+        android:textSize="26.0px" />
+
+    <TextView
+        android:id="@+id/keyЯ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="175.0px"
+        android:layout_y="344.0px"
+        android:background="@drawable/keyboardbtn"
+        android:clickable="true"
+        android:enabled="false"
+        android:gravity="center"
+        android:text="@string/LЯ"
+        android:textSize="26.0px" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="423.0px"
+        android:layout_y="344.0px"
+        android:background="@drawable/keyboardbtn"
+        android:enabled="false"
+        android:gravity="center"
+        android:textSize="26.0px"
+        android:visibility="invisible" />
+
+</AbsoluteLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="ButonStyleLeft" parent="CommonStyleFonts">
+        <item name="android:background">@drawable/button_click_back1</item>
+        <item name="android:layout_width">98px</item>
+        <item name="android:layout_height">98px</item>
+        <item name="android:gravity">center</item>
+        <item name="android:onClick">onTlClick</item>
+
+        <item name="android:focusable">true</item>
+        <item name="android:scaleType">center</item>
+    </style>
+
+</resources>

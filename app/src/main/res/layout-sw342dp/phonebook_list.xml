@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="56.0px"
+    android:layout_gravity="center_horizontal">
+
+    <!-- <ImageView -->
+    <!-- android:layout_width="match_parent" -->
+    <!-- android:layout_height="2.0px" -->
+    <!-- android:layout_gravity="center" -->
+    <!-- android:layout_marginLeft="5.0dip" -->
+    <!-- android:layout_marginRight="5.0dip" -->
+    <!-- android:layout_marginTop="70.0px" -->
+    <!-- android:background="@drawable/history_listsplice" /> -->
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:scaleType="center"
+        android:src="@drawable/middle_icon" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="30px"
+            android:layout_marginLeft="50px"
+            android:layout_marginTop="0px"
+            android:gravity="center_vertical|left"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:textSize="22.0px" />
+
+        <TextView
+            android:id="@+id/number"
+            android:layout_width="match_parent"
+            android:layout_height="26px"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="50px"
+            android:gravity="center_vertical|left"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:textSize="20.0px" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/bt"
+        android:layout_width="wrap_content"
+        android:layout_height="0px"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20.0px"
+        android:scaleType="fitCenter"
+        android:src="@drawable/match_iconphone" />
+
+</RelativeLayout>

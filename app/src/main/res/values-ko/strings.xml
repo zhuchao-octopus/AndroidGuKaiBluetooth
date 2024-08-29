@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="device_name">"디바이스명"</string>
+    <string name="auto_connect">"자동 연결"</string>
+    <string name="auto_answer">"자동 응답"</string>
+    <string name="alert_dialog_ok">"확인"</string>
+    <string name="alert_dialog_cancel">"취소"</string>
+    <string name="remove_calllog">"모든 통화 기록 삭제"</string>
+    <string name="download_pb_phone">"전화번호부 다운로드"</string>
+    <string name="remove_pb_phone">"전화번호부 삭제"</string>
+    <string name="remove_pair">"모든 페어링 기록 삭제?"</string>
+    <string name="record">"기록"</string>
+    <string name="total">"전체:"</string>
+    <string name="text_connect">"연결됨"</string>
+    <string name="saving_phone_book">"전화번호부 저장중, 잠시만 기다려주세요."</string>
+    <string-array name="auto_array">
+        <item>"닫기"</item>
+        <item>"열기"</item>
+    </string-array>
+
+
+    <string name="if_dial">"다이얼:"</string>
+
+    <string name="if_diconnect">"장치를 연결해제 하시겠습니까?"</string>
+
+    <string name="phone_book_connect_fail">"전화번호부 연결실패, 휴대폰이 장치와 호환되지 않을수 있습니다."</string>
+    <string name="connecting">"연결중"</string>
+
+    <string name="dialing">"다이얼 중"</string>
+    <string name="incoming">"수신중"</string>
+    <string name="calling">calling</string>
+    <string name="unknow">"알 수 없음."</string>
+
+
+    <string name="a2dp_disconnect_info">장치 연결이 끊겼습니다, 장치 검색 :%s,  </string>
+    <string name="a2dp_disconnect_info2">PIN:%s 연결</string>
+
+
+    <string name="sorting">"전화번호부 정렬"</string>
+
+
+    <string name="help">"블루투스 음성 제어"</string>
+    <string name="help2">"다이얼"</string>
+    <string name="help3">"통화"</string>
+    <string name="speech_note1">"다이얼을 선택하십시오"</string>
+
+
+    <string name="syncing">"전화번호부 동기화중"</string>
+    <string name="updating">"전화번호부 업데이트중"</string>
+
+    <string name="voicecontrol_name">"음성제어"</string>
+    <string name="voicecontrol_notice">"블루투스를 연결하시고, 먼저 전화번호부를 다운로드 하십시오!"</string>
+
+    <string name="matchdevice">"연결된 장치"</string>
+    <string name="searchdevice">"연결 가능하는 장치"</string>
+
+</resources>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_pair"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="444px"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="56px"
+        android:layout_marginTop="5px"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingBottom="5px">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="68px"
+            android:background="@drawable/bg_device"
+            android:gravity="center_horizontal"
+            android:paddingLeft="10px"
+            android:paddingTop="10px"
+            android:text="@string/matchdevice"
+            android:textColor="#ffffff"
+            android:textSize="22px" />
+
+        <ListView
+            android:id="@+id/list_paired"
+            style="@style/CommonListViewStyle1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_below="@+id/tr_edit"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="6px"
+            android:background="#22ffffff"
+            android:cacheColorHint="@android:color/transparent"
+            android:dividerHeight="2px"
+            android:fadingEdge="none"
+            android:focusable="true"
+            android:paddingBottom="2px"
+            android:paddingLeft="0px"
+            android:paddingRight="0px"
+            android:paddingTop="2px"
+            android:scrollbars="none" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="444px"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="48px"
+        android:layout_marginTop="0px"
+        android:gravity="center"
+        android:paddingBottom="5px">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="5px"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="68px"
+                android:background="@drawable/bg_device"
+                android:gravity="center_horizontal"
+                android:paddingTop="10px"
+                android:text="@string/searchdevice"
+                android:textColor="#ffffff"
+                android:textSize="22px" />
+
+            <ListView
+                android:id="@+id/list_pair_available"
+                style="@style/CommonListViewStyle1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignWithParentIfMissing="true"
+                android:layout_below="@+id/tr_edit"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="6px"
+                android:background="#22ffffff"
+                android:cacheColorHint="@android:color/transparent"
+                android:dividerHeight="2px"
+                android:fadingEdge="none"
+                android:focusable="true"
+                android:paddingBottom="2px"
+                android:paddingLeft="0px"
+                android:paddingRight="0px"
+                android:paddingTop="2px"
+                android:scrollbars="none" />
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/tr_progress"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="77px"
+            android:layout_height="77px"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="4px"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="192px"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="48px"
+        android:background="#22000000"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingBottom="5px"
+        android:paddingLeft="5px"
+        android:paddingRight="5px"
+        android:paddingTop="5px">
+
+        <ImageView
+            android:id="@+id/pair_search"
+            style="@style/ButonStyleLeftPair"
+            android:src="@drawable/search" />
+
+        <ImageView
+            android:id="@+id/pair_connect"
+            style="@style/ButonStyleLeftPair"
+            android:src="@drawable/pair_connect" />
+
+        <ImageView
+            android:id="@+id/pair_disconnect"
+            style="@style/ButonStyleLeftPair"
+            android:src="@drawable/disconnect" />
+
+        <ImageView
+            android:id="@+id/pair_del"
+            style="@style/ButonStyleLeftPair"
+            android:src="@drawable/remove" />
+    </LinearLayout>
+
+</LinearLayout>

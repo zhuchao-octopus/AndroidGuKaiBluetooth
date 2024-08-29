@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="bluetooth_settings">บลูทูธ</string>
+    <!--     <string name="bt_music">蓝牙音乐</string> -->
+    <string name="device_name">ชื่ออุปกรณ์</string>
+    <!--     <string name="pin">PIN码</string> -->
+    <string name="auto_connect">เชื่อมต่อโดยอัตโนมัติ</string>
+    <string name="auto_answer">ตอบโดยอัตโนมัติ</string>
+    <string name="alert_dialog_ok">โอเค</string>
+    <string name="alert_dialog_cancel">การยกเลิก</string>
+    <string name="remove_calllog">ลบทั้งหมดบันทึกการโทร</string>
+    <string name="download_pb_phone">ดาวน์โหลดสมุดโทรศัพท์</string>
+    <!--     <string name="download_pb_sim">下载SIM卡电话本</string> -->
+    <string name="remove_pb_phone">ลบโทรศัพท์นี้</string>
+    <!--     <string name="remove_pb_sim">删除SIM卡电话本</string> -->
+    <string name="remove_pair">ลบบันทึกทั้งหมดของการจับคู่</string>
+    <string name="record">บันทึกการโทร</string>
+    <string name="total">มีทั้งหมด:</string>
+    <string name="text_connect">ที่เชื่อมต่อ</string>
+    <string name="if_diconnect">ปัจจุบันได้มีการตัดการเชื่อมต่อการเชื่อมต่อ？</string>
+
+    <string-array name="auto_array">
+        <item>ปิด</item>
+        <item>เปิด</item>
+    </string-array>
+
+    <string name="saving_phone_book">บันทึกสมุดโทรศัพท์ , โปรดรอสักครู่</string>
+    <string name="connecting">กำลังเชื่อมต่อ</string>
+    <string name="phone_book_connect_fail">บริการโทรศัพท์นี้มีการเชื่อมต่อล้มเหลว , หยุดการดาวน์โหลด。</string>
+    <string name="dialing">ในการโทร</string>
+    <string name="incoming">โทร</string>
+
+    <string name="unknow">ที่ไม่รู้จัก</string>
+
+    <string name="a2dp_disconnect_info">อุปกรณ์บลูทูธไม่ได้เชื่อมต่ออุปกรณ์ของคุณค้นหา:%s,</string>
+    <string name="a2dp_disconnect_info2">PIN:%s</string>
+
+
+    <string name="if_dial">โทร :</string>
+
+
+    <string name="sorting">โทรศัพท์นี้จะเรียงลําดับ</string>
+</resources>

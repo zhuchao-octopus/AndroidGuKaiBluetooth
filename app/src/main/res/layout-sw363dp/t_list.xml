@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="82.0px"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/button_click_back1">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:layout_gravity="center"
+        android:layout_marginLeft="6.0dip"
+        android:layout_marginRight="6.0dip"
+        android:layout_marginTop="79.0px"
+        android:background="@drawable/history_listsplice" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="415.0px"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="18.0px"
+        android:gravity="center_vertical"
+        android:singleLine="true"
+        android:textColor="#ffffff"
+        android:textSize="28.0px"
+        style="@style/CommonStyleFonts" />
+
+    <TextView
+        android:id="@+id/value"
+        android:layout_width="414.0px"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="24.0px"
+        android:gravity="center"
+
+        style="@style/CommonStyleFonts"
+        android:singleLine="true"
+        android:textColor="#ffffff"
+        android:textSize="28.0px" />
+
+    <ImageView
+        android:id="@+id/more"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="24.0px"
+        android:scaleType="center"
+        android:src="@drawable/more" />
+
+</RelativeLayout>

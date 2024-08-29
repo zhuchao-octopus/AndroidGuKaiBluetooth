@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bt_music">"BT MUSIC"</string>
+    <string name="bluetooth_settings">"Bluetooth"</string>
+    <string name="device_name">"Nome do dispositivo"</string>
+    <string name="pin">"Número do PIN"</string>
+    <string name="auto_connect">"Conexão automática"</string>
+    <string name="auto_answer">"Resposta automática"</string>
+    <string name="alert_dialog_ok">"OK"</string>
+    <string name="alert_dialog_cancel">"Cancelar"</string>
+    <string name="remove_calllog">"Excluir todos os registros de chamadas"</string>
+    <string name="download_pb_phone">"Faça o download da lista telefônica"</string>
+    <string name="download_pb_sim">"Faça o download da lista telefônica do SIM"</string>
+    <string name="remove_pb_phone">"Excluir a lista telefônica"</string>
+    <string name="remove_pb_favorite">"Excluir a lista telefônica em favoritos"</string>
+    <string name="remove_pb_sim">"Excluir a lista telefônica do SIM"</string>
+    <string name="remove_pair">"Excluir todos os registros de pares?"</string>
+    <string name="remove_one_pair">"Excluir este par de registros?"</string>
+    <string name="record">"Registros"</string>
+    <string name="total">"Total:"</string>
+    <string name="text_connect">"Conectado"</string>
+    <string name="saving_phone_book">"Salvando lista telefônica, aguarde."</string>
+    <string-array name="auto_array">
+        <item>"Fechar"</item>
+        <item>"Aberto"</item>
+    </string-array>
+    <string name="pause">"Pausa"</string>
+    <string name="if_dial">"Dial:"</string>
+    <string name="if_del">"Del:"</string>
+    <string name="if_diconnect">"Dispositivo já está conectado, desconectar?"</string>
+    <string name="phone_book_connect_fail">"Falha na conexão à lista telefônica, talvez o celular não seja compatível."</string>
+    <string name="connecting">"conectando"</string>
+    <string name="dialing">"discagem"</string>
+    <string name="incoming">"chamada"</string>
+    <string name="calling">"chamando"</string>
+    <string name="unknow">"desconhecido"</string>
+    <string name="a2dp_disconnect_info">"Desconectado, pesquisa:%s,"</string>
+    <string name="a2dp_disconnect_info2">"PIN:%s para conectar"</string>
+    <string name="sorting">"Classificação da lista telefônica"</string>
+    <string name="help">"Controle de voz Bluetooth"</string>
+    <string name="help2">"Discar"</string>
+    <string name="help3">"Ligar"</string>
+    <string name="speech_note1">"Selecione para discar"</string>
+    <string name="syncing">"Sincronizando a agenda de telefones"</string>
+    <string name="updating">"Atualizando a Agenda"</string>
+    <string name="voicecontrol_name">"Controle de voz"</string>
+    <string name="voicecontrol_notice">"Conecte o Bluetooth e faça o download da agenda telefônica primeiro!"</string>
+    <string name="version">"Versão"</string>
+    <string name="bt_update">"Deseja atualizar?"</string>
+    <string name="add_to_favorite">"Deseja adicionar à lista de favoritos?"</string>
+    <string name="delete_favorite">"Deseja excluir o favorito da lista?"</string>
+    <string name="matchdevice">"Dispositivos emparelhados"</string>
+    <string name="searchdevice">"Dispositivos disponíveis"</string>
+    <string name="connection">"Conexão?"</string>
+    <string name="search">"Procurar"</string>
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bt_music">"BT HUDBA"</string>
+    <string name="bluetooth_settings">"Bluetooth"</string>
+    <string name="device_name">"Názov zariadenia"</string>
+    <string name="pin">"Číslo PIN"</string>
+    <string name="auto_connect">"Automatické pripojenie"</string>
+    <string name="auto_answer">"Automatická odpoveď"</string>
+    <string name="alert_dialog_ok">"OK"</string>
+    <string name="alert_dialog_cancel">"Zrušiť"</string>
+    <string name="remove_calllog">"Odstráňte všetky záznamy hovorov"</string>
+    <string name="download_pb_phone">"Stiahnite si telefónny zoznam"</string>
+    <string name="download_pb_sim">"Stiahnite si telefónny zoznam zo SIM karty"</string>
+    <string name="remove_pb_phone">"Odstráňte telefónny zoznam"</string>
+    <string name="remove_pb_favorite">"Odstráňte telefónny zoznam v obľúbených položkách"</string>
+    <string name="remove_pb_sim">"Odstráňte telefónny zoznam zo SIM karty"</string>
+    <string name="remove_pair">"Odstrániť všetky záznamy párovania?"</string>
+    <string name="remove_one_pair">"Odstrániť tento záznam párovania?"</string>
+    <string name="record">"Záznamy"</string>
+    <string name="total">"Celkom:"</string>
+    <string name="text_connect">"Pripojené"</string>
+    <string name="saving_phone_book">"Ukladá sa telefónny zoznam, čakajte prosím."</string>
+    <string-array name="auto_array">
+        <item>"Zatvoriť"</item>
+        <item>"Otvoriť"</item>
+    </string-array>
+    <string name="pause">"Pozastaviť"</string>
+    <string name="if_dial">"Vytočiť:"</string>
+    <string name="if_del">"Vym:"</string>
+    <string name="if_diconnect">"Teraz pripojené zariadenie, odpojiť?"</string>
+    <string name="phone_book_connect_fail">"pripojenie telefónneho zoznamu zlyhalo, pravdepodobne mobilný telefón nepodporuje."</string>
+    <string name="connecting">"pripájam"</string>
+    <string name="dialing">"vytáčam"</string>
+    <string name="incoming">"prichádzajúci"</string>
+    <string name="calling">"hovor"</string>
+    <string name="unknow">"neznámy"</string>
+    <string name="a2dp_disconnect_info">"Odpojené, hľadajte:%s ,"</string>
+    <string name="a2dp_disconnect_info2">"PIN:%s  na pripojenie"</string>
+    <string name="sorting">"Triedenie telefónneho zoznamu"</string>
+    <string name="help">"Bluetooth hlasové ovládanie"</string>
+    <string name="help2">"Vytočiť"</string>
+    <string name="help3">"Hovor"</string>
+    <string name="speech_note1">"Vyberte jedno, ktoré chcete vytočiť"</string>
+    <string name="syncing">"Synchronizuje sa Telefónny zoznam"</string>
+    <string name="updating">"Aktualizuje sa Telefónny zoznam"</string>
+    <string name="voicecontrol_name">"HlasovéOvládanie"</string>
+    <string name="voicecontrol_notice">"Pripojte prosím Bluetooth a najskôr si stiahnite telefónny zoznam!"</string>
+    <string name="version">"Verzia"</string>
+    <string name="bt_update">"Chcete aktualizovať?"</string>
+    <string name="add_to_favorite">"Prajete si pridať do zoznamu obľúbených?"</string>
+    <string name="delete_favorite">"Chcete odstrániť obľúbenú položku zo zoznamu?"</string>
+    <string name="matchdevice">"Spárované zariadenie"</string>
+    <string name="searchdevice">"Dostupné zariadenia"</string>
+    <string name="connection">"Pripojenie?"</string>
+    <string name="search">"Hľadať"</string>
+
+</resources>

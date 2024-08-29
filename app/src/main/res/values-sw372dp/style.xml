@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="ButtonStyle1">
+        <item name="android:textColor">#A4CFF2</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_width">158px</item>
+        <item name="android:layout_marginLeft">98px</item>
+        <item name="android:gravity">center</item>
+        <item name="android:focusable">true</item>
+        <item name="android:scaleType">center</item>
+    </style>
+
+    <style name="ButonStyleLeft" parent="CommonStyleFonts">
+        <item name="android:layout_width">168px</item>
+        <item name="android:layout_height">86px</item>
+        <item name="android:gravity">center</item>
+        <item name="android:onClick">onTlClick</item>
+        <item name="android:focusable">true</item>
+        <item name="android:tag">ak_paramter=100,50</item>
+        <item name="android:scaleType">center</item>
+    </style>
+
+    <style name="ButonStyleLeftPhonebook" parent="ButonStyleLeft">
+        <item name="android:onClick">onPhonebookClick</item>
+    </style>
+
+    <style name="ButonStyleLeftCallLog" parent="ButonStyleLeft">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">100px</item>
+        <item name="android:onClick">onCallLogClick</item>
+    </style>
+
+    <style name="ButtonStyleDialNum">
+        <item name="android:background">@drawable/histroy_round</item>
+        <item name="android:layout_height">70px</item>
+        <item name="android:layout_width">70px</item>
+
+        <item name="android:gravity">center</item>
+        <item name="android:focusable">true</item>
+        <item name="android:tag">ak_paramter=100,50</item>
+        <item name="android:scaleType">centerInside</item>
+        <item name="android:onClick">onDClick</item>
+        <item name="android:layout_marginLeft">112px</item>
+        <item name="android:layout_marginTop">4px</item>
+    </style>
+
+
+    <style name="ButtonStyleDialNumNo3Call" parent="ButtonStyleDialNum">
+        <item name="android:layout_marginLeft">157px</item>
+    </style>
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="ButonStyleLeft" parent="CommonStyleFonts">
+        <item name="android:background">@drawable/button_back1</item>
+        <item name="android:layout_width">118px</item>
+        <item name="android:layout_height">80px</item>
+        <item name="android:gravity">center</item>
+        <item name="android:onClick">onTlClick</item>
+
+        <item name="android:focusable">true</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:tag">ak_paramter=100,50</item>
+        <item name="android:layout_marginTop">20px</item>
+    </style>
+
+    <style name="ButonStyleLeftPhonebook" parent="ButonStyleLeft">
+        <item name="android:onClick">onPhonebookClick</item>
+    </style>
+
+    <style name="ButonStyleLeftCallLog" parent="ButonStyleLeft">
+        <item name="android:onClick">onCallLogClick</item>
+    </style>
+
+    <style name="ButonStyleNumSmall" parent="ButonStyleNumSmall1024"></style>
+</resources>

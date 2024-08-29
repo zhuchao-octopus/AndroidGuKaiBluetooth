@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="bt_music">"بلوتوث الموسيقي"</string>
+    <string name="bluetooth_settings">"بلوتوث"</string>
+    <string name="device_name">"اسم الجهاز"</string>
+    <string name="pin">"كلمة المرور"</string>
+    <string name="auto_connect">"اتصال تلقائي"</string>
+    <string name="auto_answer">"الرد الألي"</string>
+    <string name="alert_dialog_ok">"موافق"</string>
+    <string name="alert_dialog_cancel">"إلغاء"</string>
+    <string name="remove_calllog">"حذف جميع سجلات المكالمات"</string>
+    <string name="download_pb_phone">"تحميل دليل الهاتف"</string>
+    <string name="download_pb_sim">"تحميل دليل ارقام شريحة الاتصال"</string>
+    <string name="remove_pb_phone">"حذف دليل الهاتف"</string>
+    <string name="remove_pb_favorite">"حذف دليل الهاتف من المفضلة"</string>
+    <string name="remove_pb_sim">"حذف دليل ارقام شريحة الاتصال"</string>
+    <string name="remove_pair">"حذف جميع السجلات المقترنة"</string>
+    <string name="remove_one_pair">"حذف هذا السجل المقترن"</string>
+    <string name="record">"السجلات الهاتفية"</string>
+    <string name="total">"المجموع"</string>
+    <string name="text_connect">"متصل"</string>
+    <string name="saving_phone_book">"جاري حفظ دليل الهاتف ، يرجي الانتظار"</string>
+    <string-array name="auto_array">
+        <item>"اغلاق"</item>
+        <item>"فتح"</item>
+    </string-array>
+    <string name="pause">"تعليق"</string>
+    <string name="if_dial">"Dial:"</string>
+    <string name="if_del">"Del:"</string>
+    <string name="if_diconnect">"الجهاز متصل الأن ، هل ترغب بفصل الاتصال ؟"</string>
+    <string name="phone_book_connect_fail">"فشل الاتصال بدليل الهاتف ، قد يكون الجوال غير مدعوم"</string>
+    <string name="connecting">"جاري الاتصال"</string>
+    <string name="dialing">"جاري الاتصال"</string>
+    <string name="incoming">"المكالمات الواردة"</string>
+    <!--string name="calling">""</string-->
+    <string name="unknow">"المتصل غير معروف"</string>
+    <string name="a2dp_disconnect_info">"تم فصل الاتصال ، جاري البحث %s"</string>
+    <string name="a2dp_disconnect_info2">"PIN:%s الرقم السري للاتصال"</string>
+    <string name="sorting">"إعادة ترتيب دليل الهاتف"</string>
+    <string name="help">"ضبط صوت البلوتوث"</string>
+    <string name="help2">"اتصال"</string>
+    <string name="help3">"اتصال"</string>
+    <string name="speech_note1">"اختر للاتصال"</string>
+    <string name="syncing">"مزامنة دليل الهاتف"</string>
+    <string name="updating">"تحديث دليل الهاتف"</string>
+    <string name="voicecontrol_name">"التحكم بالصوت"</string>
+    <string name="voicecontrol_notice">"يرجي الاتصال بالبلوتوث أولاً لتحميل دليل الهاتف"</string>
+    <string name="version">"الإصدار"</string>
+    <string name="bt_update">"هل ترغب بالتحديث ؟"</string>
+    <string name="add_to_favorite">"هل تريد إضافة جهة الاتصال هذه إلى قائمة المفضلة لديك؟"</string>
+    <string name="delete_favorite">"هل ترغب بالحذف من قائمة المفضلة"</string>
+    <string name="matchdevice">"الأجهزة المقترنة"</string>
+    <string name="searchdevice">"الأجهزة المتوفرة"</string>
+    <string name="connection">"تأكيد الاتصال ؟"</string>
+    <string name="search">"البحث"</string>
+
+</resources>

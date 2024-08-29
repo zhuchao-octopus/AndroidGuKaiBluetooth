@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_phonebook"
+    android:layout_width="800px"
+    android:layout_height="340px"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="620px"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20px"
+        android:layout_marginTop="15px"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="0px"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <EditText
+                    android:id="@+id/tr_edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="64px"
+                    android:layout_marginLeft="4px"
+                    android:layout_marginRight="10px"
+                    android:layout_marginTop="0px"
+                    android:background="@drawable/setup_textbg"
+                    android:gravity="left|center_vertical"
+                    android:hint="@string/search"
+                    android:imeOptions="actionDone"
+                    android:inputType="text"
+                    android:singleLine="true" />
+
+                <ListView
+                    android:id="@+id/list_phonebook"
+                    style="@style/CommonListViewStyle1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignWithParentIfMissing="true"
+                    android:layout_below="@+id/tr_edit"
+                    android:layout_centerInParent="true"
+                    android:cacheColorHint="@android:color/transparent"
+                    android:dividerHeight="2px"
+                    android:fadingEdge="none"
+                    android:focusable="true"
+                    android:paddingBottom="2px"
+                    android:paddingLeft="0px"
+                    android:paddingRight="8px"
+                    android:paddingTop="2px"
+                    android:scrollbars="none" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            style="@style/ButonStyleLeftPhonebook"
+            android:layout_marginTop="0px"
+            android:src="@drawable/bt_icon_pb" />
+
+        <ImageView
+            android:id="@+id/phone_search"
+            style="@style/ButonStyleLeftPhonebook"
+            android:src="@drawable/search" />
+
+        <ImageView
+            android:id="@+id/phone_download"
+            style="@style/ButonStyleLeftPhonebook"
+            android:src="@drawable/ico_rfu" />
+
+        <ImageView
+            android:id="@+id/phone_del"
+            style="@style/ButonStyleLeftPhonebook"
+            android:src="@drawable/ico_dela" />
+    </LinearLayout>
+
+</LinearLayout>

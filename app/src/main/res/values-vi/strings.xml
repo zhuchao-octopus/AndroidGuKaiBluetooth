@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bt_music">"NHẠC BT"</string>
+    <string name="bluetooth_settings">"Bluetooth"</string>
+    <string name="device_name">"Tên thiết bị"</string>
+    <string name="pin">"Mã PIN"</string>
+    <string name="auto_connect">"Tự động kết nối"</string>
+    <string name="auto_answer">"Trả lời tự động"</string>
+    <string name="alert_dialog_ok">"đồng ý"</string>
+    <string name="alert_dialog_cancel">"Huỷ bỏ"</string>
+    <string name="remove_calllog">"Xóa tất cả các bản ghi cuộc gọi"</string>
+    <string name="download_pb_phone">"Tải xuống danh bạ điện thoại"</string>
+    <string name="download_pb_sim">"Tải xuống danh bạ SIM"</string>
+    <string name="remove_pb_phone">"Xóa danh bạ điện thoại"</string>
+    <string name="remove_pb_favorite">"Xóa danh bạ điện thoại yêu thích"</string>
+    <string name="remove_pb_sim">"Xóa danh bạ SIM"</string>
+    <string name="remove_pair">"Xóa tất cả các bản ghi cặp?"</string>
+    <string name="remove_one_pair">"Xóa bản ghi cặp này?"</string>
+    <string name="record">"Bản ghi"</string>
+    <string name="total">"Tất cả"</string>
+    <string name="text_connect">"Đã kết nối"</string>
+    <string name="saving_phone_book">"Đang lưu danh bạ, vui lòng đợi."</string>
+    <string-array name="auto_array">
+        <item>"Đóng"</item>
+        <item>"Mở"</item>
+    </string-array>
+    <string name="pause">"Tạm ngừng"</string>
+    <string name="if_dial">"Quay số"</string>
+    <string name="if_del">"Del:"</string>
+    <string name="if_diconnect">"Đã kết nối thiết bị ngay bây giờ, ngắt kết nối?"</string>
+    <string name="phone_book_connect_fail">"danh bạ điện thoại kết nối không thành công, có thể điện thoại di động không hỗ trợ."</string>
+    <string name="connecting">"Đang kết nối"</string>
+    <string name="dialing">"quay số"</string>
+    <string name="incoming">"mới đến"</string>
+    <string name="calling">"kêu gọi"</string>
+    <string name="unknow">"không biết"</string>
+    <string name="a2dp_disconnect_info">"Đã ngắt kết nối, tìm kiếm:%s,"</string>
+    <string name="a2dp_disconnect_info2">"PIN:%s để kết nối"</string>
+    <string name="sorting">"Sắp xếp danh bạ"</string>
+    <string name="help">"Điều khiển bằng giọng nói Bluetooth"</string>
+    <string name="help2">"Quay số"</string>
+    <string name="help3">"Gọi"</string>
+    <string name="speech_note1">"Chọn một để quay số"</string>
+    <string name="syncing">"Đồng bộ hóa danh bạ"</string>
+    <string name="updating">"Cập nhật danh bạ"</string>
+    <string name="voicecontrol_name">"Điều khiển giọng nói"</string>
+    <string name="voicecontrol_notice">"Vui lòng kết nối Bluetooth và tải xuống danh bạ trước!"</string>
+    <string name="version">"Phiên bản"</string>
+    <string name="bt_update">"Bạn có muốn cập nhật?"</string>
+    <string name="add_to_favorite">"Bạn có muốn thêm vào danh sách yêu thích?"</string>
+    <string name="delete_favorite">"Bạn có muốn xóa mục yêu thích trong danh sách không?"</string>
+    <string name="matchdevice">"Các thiết bị được ghép nối"</string>
+    <string name="searchdevice">"Các thiết bị có sẵn"</string>
+    <string name="connection">"Kết nối?"</string>
+    <string name="search">"Tìm kiếm"</string>
+</resources>

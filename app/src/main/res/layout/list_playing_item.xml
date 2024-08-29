@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="63px"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/tr_l_bg">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="270px"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15px"
+        android:gravity="center_vertical"
+        android:textColor="#ebebeb"
+        android:textSize="24px"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="267px"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="36px"
+        android:gravity="center_vertical|right"
+        android:singleLine="true"
+        android:textColor="#ebebeb"
+        android:textSize="24px"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/playing_checkbox"
+        android:layout_width="32px"
+        android:layout_height="32px"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="2px"
+        android:gravity="center_vertical"
+        android:src="@drawable/music_playing_checkbox_level"
+        android:visibility="gone" />
+
+</RelativeLayout>

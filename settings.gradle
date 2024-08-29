@@ -1,0 +1,19 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+        maven { url '\\\\192.168.10.93\\smb\\OctopusFrameworkLibs' }
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven { url '\\\\192.168.10.93\\smb\\OctopusFrameworkLibs' }
+    }
+}
+
+rootProject.name = "My Bluetooth"
+include ':app'

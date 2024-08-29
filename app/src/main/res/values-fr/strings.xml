@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="help">Contrôle vocal Bluetooth</string>
+    <string name="help2">"Cadran"</string>
+    <string name="help3">"Appel"</string>
+    <string name="speech_note1">"Sélectionnez-en un pour composer"</string>
+
+
+    <string name="syncing">Sélectionnez-en un pour composer...</string>
+    <string name="updating">Mise à jour du répertoire</string>
+
+    <string name="voicecontrol_name">Commande vocale</string>
+    <string name="voicecontrol_notice">Veuillez connecter Bluetooth et télécharger le répertoire d\'abord!</string>
+
+    <string name="matchdevice">Les appareils liés</string>
+    <string name="searchdevice">périphériques disponibles</string>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="62px"
+    android:background="@drawable/button_click_back1"
+    android:layout_gravity="center_horizontal">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:layout_gravity="center"
+        android:layout_marginLeft="1.0dip"
+        android:layout_marginRight="1.0dip"
+        android:layout_marginTop="60px"
+        android:background="@drawable/history_listsplice" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="320px"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="15px"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical|left"
+        android:singleLine="true"
+        android:textColor="#ebebeb"
+        android:textSize="26px" />
+
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="267px"
+        android:layout_height="match_parent"
+        android:layout_marginRight="0px"
+        android:layout_marginLeft="335px"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical|right"
+        android:textColor="#ebebeb"
+        android:singleLine="true"
+        android:textSize="26px" />
+
+    <ImageView
+        android:id="@+id/bt"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginRight="20px"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:scaleType="center"
+        android:src="@drawable/bt" />
+
+</RelativeLayout>

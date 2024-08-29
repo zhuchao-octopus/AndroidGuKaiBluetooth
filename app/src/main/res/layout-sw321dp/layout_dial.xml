@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/tr_dial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <RelativeLayout
+                android:layout_width="540px"
+                android:layout_height="98px"
+                android:background="@drawable/button_click_back2"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/digit"
+                    style="@style/ButonStyleNum"
+                    android:layout_width="match_parent"
+                    android:layout_height="58px"
+                    android:background="@null"
+                    android:focusable="false"
+                    android:onClick="@null"
+                    android:singleLine="true"
+                    android:textSize="38px" />
+
+                <TextView
+                    android:id="@+id/dial_status"
+                    style="@style/ButonStyleNum"
+                    android:layout_width="match_parent"
+                    android:layout_height="36px"
+                    android:layout_marginTop="48px"
+                    android:background="@null"
+                    android:focusable="false"
+                    android:onClick="@null"
+                    android:textSize="22px" />
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/delete"
+                style="@style/ButonStyleNum"
+                android:onClick="onClick"
+                android:scaleType="center"
+                android:src="@drawable/bt_num_del" />
+        </LinearLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/n1"
+                    style="@style/ButonStyleNum"
+                    android:text="@string/digit_1" />
+
+                <TextView
+                    android:id="@+id/n2"
+                    style="@style/ButonStyleNum"
+                    android:text="@string/digit_2" />
+
+                <TextView
+                    android:id="@+id/n3"
+                    style="@style/ButonStyleNum"
+                    android:text="@string/digit_3" />
+
+                <TextView
+                    android:id="@+id/nx"
+                    style="@style/ButonStyleNum"
+                    android:textSize="54px"
+                    android:text="@string/digit_x0" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/n4"
+                    style="@style/ButonStyleNum"
+                    android:text="@string/digit_4" />
+
+                <TextView
+                    android:id="@+id/n5"
+                    style="@style/ButonStyleNum"
+                    android:text="@string/digit_5" />
+
+                <TextView
+                    android:id="@+id/n6"
+                    style="@style/ButonStyleNum"
+                    android:text="@string/digit_6" />
+
+                <TextView
+                    android:id="@+id/n0"
+                    style="@style/ButonStyleNum"
+                    android:text="@string/digit_0" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/n7"
+                    style="@style/ButonStyleNum"
+                    android:text="@string/digit_7" />
+
+                <TextView
+                    android:id="@+id/n8"
+                    style="@style/ButonStyleNum"
+                    android:text="@string/digit_8" />
+
+                <TextView
+                    android:id="@+id/n9"
+                    style="@style/ButonStyleNum"
+                    android:text="@string/digit_9" />
+
+                <TextView
+                    android:id="@+id/nj"
+                    style="@style/ButonStyleNum"
+                    android:text="@string/digit_x1" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+</RelativeLayout>

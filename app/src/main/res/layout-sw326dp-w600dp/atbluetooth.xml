@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:paddingRight="20px">
+
+    <!-- <View -->
+    <!-- android:layout_width="fill_parent" -->
+    <!-- android:layout_height="1.0px" -->
+    <!-- android:background="#626262" -->
+    <!-- android:gravity="center_vertical" /> -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="184px"
+        android:gravity="top"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0px"
+            android:gravity="top"
+            android:orientation="horizontal">
+
+            <com.zhuchao.android.bt.view.MarqueeTextView
+                android:id="@+id/disconnect_info"
+                style="@style/shadowTextCommonStyleFonts"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#ffffffff"
+                android:textSize="20px"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/main_page_no_dial"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingBottom="2px"
+            android:paddingLeft="0px"
+            android:paddingTop="2px">
+
+            <!-- <ListView -->
+            <!-- android:id="@+id/t_list" -->
+            <!-- style="@style/CommonListViewStyle1" -->
+            <!-- android:layout_width="726px" -->
+            <!-- android:layout_height="wrap_content" -->
+            <!-- android:layout_centerHorizontal="true" -->
+            <!-- android:layout_marginTop="0px" -->
+            <!-- android:background="#00000000" -->
+            <!-- android:cacheColorHint="@android:color/transparent" -->
+            <!-- android:dividerHeight="2px" -->
+            <!-- android:fadingEdge="none" -->
+            <!-- android:focusable="true" -->
+            <!-- android:paddingBottom="4px" -->
+            <!-- android:paddingTop="4px" -->
+            <!-- android:scrollbars="none" -->
+            <!-- android:visibility="gone" /> -->
+
+            <LinearLayout
+                android:id="@+id/t_normal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="0px"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+                <RelativeLayout
+                    android:layout_width="556px"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="0px"
+                    android:gravity="center">
+
+                    <RelativeLayout
+                        android:id="@+id/tr_list_bg"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:gravity="center_horizontal"
+                        android:visibility="visible">
+
+                        <EditText
+                            android:id="@+id/tr_edit"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="20px"
+                            android:layout_marginRight="10px"
+                            android:layout_marginTop="0px"
+                            android:gravity="center"
+                            android:imeOptions="actionDone"
+                            android:inputType="text"
+                            android:singleLine="true"
+                            android:visibility="gone" />
+
+                        <ListView
+                            android:id="@+id/tr_list"
+                            style="@style/CommonListViewStyle1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_alignWithParentIfMissing="true"
+                            android:layout_below="@+id/tr_edit"
+                            android:layout_centerInParent="true"
+                            android:cacheColorHint="@android:color/transparent"
+                            android:dividerHeight="2px"
+                            android:fadingEdge="none"
+                            android:focusable="true"
+                            android:paddingBottom="0px"
+                            android:paddingLeft="0px"
+                            android:paddingRight="0px"
+                            android:paddingTop="0px"
+                            android:scrollbars="none" />
+                    </RelativeLayout>
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="100px"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/tl_0"
+                        style="@style/ButonStyleLeft"
+                        android:background="@drawable/btn2_mid" />
+
+                    <ImageView
+                        android:id="@+id/tl_1"
+                        style="@style/ButonStyleLeft"
+                        android:layout_marginTop="15px"
+                        android:background="@drawable/btn2_mid" />
+
+                    <ImageView
+                        android:id="@+id/tl_2"
+                        style="@style/ButonStyleLeft"
+                        android:layout_marginTop="15px"
+                        android:background="@drawable/btn2_mid" />
+
+                    <ImageView
+                        android:id="@+id/tl_3"
+                        style="@style/ButonStyleLeft"
+                        android:layout_marginTop="15px"
+                        android:background="@drawable/btn2_mid" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="184px"
+        android:orientation="vertical">
+
+        <include
+            layout="@layout/layout_pair"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="184px"
+        android:orientation="vertical">
+
+        <include
+            layout="@layout/layout_a2dp"
+            android:visibility="gone" />
+
+        <include
+            layout="@layout/layout_dial"
+            android:visibility="gone" />
+
+        <include
+            layout="@layout/layout_set"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:background="#272f39"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="184px"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/a2dp"
+                style="@style/ButtonStyle1"
+                android:clickable="true"
+                android:onClick="onBClick"
+                android:scaleType="center"
+                android:src="@drawable/bt_page_a2dp"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/dial"
+                style="@style/ButtonStyle1"
+                android:clickable="true"
+                android:onClick="onBClick"
+                android:scaleType="center"
+                android:src="@drawable/bt_page_dial" />
+
+            <View
+                android:layout_width="83px"
+                android:layout_height="2px"
+                android:background="@drawable/line" />
+
+            <ImageView
+                android:id="@+id/phonebook"
+                style="@style/ButtonStyle1"
+                android:clickable="true"
+                android:onClick="onBClick"
+                android:scaleType="center"
+                android:src="@drawable/bt_icon_pb" />
+
+            <View
+                android:layout_width="83px"
+                android:layout_height="2px"
+                android:background="@drawable/line" />
+
+            <ImageView
+                android:id="@+id/calllog"
+                style="@style/ButtonStyle1"
+                android:clickable="true"
+                android:onClick="onBClick"
+                android:scaleType="center"
+                android:src="@drawable/bt_icon_his" />
+
+            <View
+                android:layout_width="83px"
+                android:layout_height="2px"
+                android:background="@drawable/line" />
+
+            <ImageView
+                android:id="@+id/pair"
+                style="@style/ButtonStyle1"
+                android:clickable="true"
+                android:onClick="onBClick"
+                android:scaleType="center"
+                android:src="@drawable/bt_icon_device" />
+
+            <View
+                android:layout_width="83px"
+                android:layout_height="2px"
+                android:background="@drawable/line" />
+
+            <ImageView
+                android:id="@+id/setting"
+                style="@style/ButtonStyle1"
+                android:clickable="true"
+                android:onClick="onBClick"
+                android:scaleType="center"
+                android:src="@drawable/bt_icon_settings" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/downloading"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#cc000000"
+        android:clickable="true"
+        android:gravity="center"
+        android:textColor="#ffffffff"
+        android:textSize="36px"
+        android:visibility="gone" />
+
+</RelativeLayout>

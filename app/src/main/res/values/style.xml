@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="ButtonStyle1">
+        <item name="android:background">@drawable/button_click_back1</item>
+        <item name="android:textColor">#A4CFF2</item>
+        <item name="android:layout_height">100px</item>
+        <item name="android:layout_width">0px</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:focusable">true</item>
+        <item name="android:scaleType">center</item>
+    </style>
+
+    <style name="shadowText">
+        <item name="android:shadowColor">#ff000000</item>
+        <item name="android:shadowRadius">3</item>
+        <item name="android:shadowDx">2</item>
+        <item name="android:shadowDy">2</item>
+    </style>
+
+    <style name="shadowTextCommonStyleFonts" parent="shadowText">
+        <item name="android:fontFamily">casual</item>
+    </style>
+
+    <style name="CommonStyleFonts">
+        <item name="android:fontFamily">casual</item>
+    </style>
+
+    <style name="ButonStyleNum" parent="CommonStyleFonts">
+        <item name="android:background">@drawable/button_click_back2</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:layout_width">155px</item>
+        <item name="android:layout_height">78px</item>
+        <item name="android:textSize">40.0px</item>
+        <item name="android:onClick">onDClick</item>
+        <item name="android:gravity">center</item>
+        <item name="android:focusable">true</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ButonStyleNum3Call" parent="CommonStyleFonts">
+        <item name="android:background">@drawable/button_click_back2</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:layout_width">124px</item>
+        <item name="android:layout_height">78px</item>
+        <item name="android:textSize">40.0px</item>
+        <item name="android:onClick">onDClick</item>
+        <item name="android:gravity">center</item>
+        <item name="android:focusable">true</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ButonStyleNumSmall800" parent="CommonStyleFonts">
+        <item name="android:layout_width">0px</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/button_click_back2</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textSize">38.0px</item>
+        <item name="android:gravity">center</item>
+        <item name="android:focusable">true</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_height">58px</item>
+    </style>
+
+    <style name="ButonStyleNumSmall1024" parent="CommonStyleFonts">
+        <item name="android:layout_width">0px</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/button_click_back2</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textSize">40.0px</item>
+        <item name="android:gravity">center</item>
+        <item name="android:focusable">true</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_height">78px</item>
+    </style>
+
+    <style name="ButonStyleNumSmall1920" parent="ButonStyleNumSmall1024">
+        <item name="android:textSize">56.0px</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="ButonStyleNumSmall" parent="ButonStyleNumSmall800"></style>
+
+    <style name="ButonStyleLeft" parent="CommonStyleFonts">
+        <item name="android:background">@drawable/tr_bg</item>
+        <item name="android:layout_width">160px</item>
+        <item name="android:layout_height">78px</item>
+        <item name="android:gravity">center</item>
+        <item name="android:onClick">onTlClick</item>
+        <item name="android:focusable">true</item>
+        <item name="android:scaleType">center</item>
+    </style>
+
+    <style name="AlertDialogCustom" parent="@android:style/Animation.Dialog">
+        <item name="android:fontFamily">casual</item>
+        <!--         <item name="android:textSize">20sp</item> -->
+    </style>
+
+    <style name="TranslucentTheme" parent="@android:style/Theme.DeviceDefault.Wallpaper.NoTitleBar">
+
+        <!-- API 19 theme customizations can go here. -->
+        <!--         <item name="android:windowContentOverlay">@null</item> -->
+        <!--         <item name="android:windowTranslucentStatus">true</item> -->
+        <!--         <item name="android:windowTranslucentNavigation">true</item> -->
+
+        <!-- Android 5.x开始需要把颜色设置透明，否则导航栏会呈现系统默认的浅灰色 -->
+
+        <!--         <item name="android:windowBackground">@null</item> -->
+        <!--         <item name="android:statusBarColor">@android:color/transparent</item> -->
+    </style>
+
+    <style name="TranslucentTheme2" parent="@android:style/Theme.DeviceDefault.Wallpaper.NoTitleBar">
+
+        <!-- API 19 theme customizations can go here. -->
+        <item name="android:windowContentOverlay">@null</item>
+        <!--         <item name="android:windowTranslucentStatus">true</item> -->
+        <!--         <item name="android:windowTranslucentNavigation">true</item> -->
+
+        <!-- Android 5.x开始需要把颜色设置透明，否则导航栏会呈现系统默认的浅灰色 -->
+
+        <!--         <item name="android:windowBackground">@null</item> -->
+        <!--         <item name="android:statusBarColor">@android:color/transparent</item> -->
+    </style>
+
+
+    <style name="TextStyleSearch">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">16dip</item>
+        <item name="android:onClick">onClickSearch</item>
+        <item name="android:clickable">true</item>
+
+    </style>
+
+    <style name="ButonStyleLeftPair" parent="ButonStyleLeft">
+        <item name="android:onClick">onPariClick</item>
+
+    </style>
+
+    <style name="ButonStyleLeftPhonebook" parent="ButonStyleLeft">
+        <item name="android:onClick">onPhonebookClick</item>
+
+    </style>
+
+    <style name="CommonListViewStyle1">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:cacheColorHint">@android:color/transparent</item>
+        <item name="android:descendantFocusability">blocksDescendants</item>
+        <item name="android:fadingEdge">none</item>
+        <item name="android:focusable">true</item>
+        <item name="android:listSelector">@android:color/transparent</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:scrollingCache">false</item>
+    </style>
+</resources>

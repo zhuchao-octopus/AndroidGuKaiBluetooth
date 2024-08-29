@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/abcdef_page"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    tools:ignore="MissingDefaultResource">
+
+    <ScrollView
+        android:layout_width="48px"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_height="fill_parent">
+
+
+            <TextView
+                android:id="@+id/search_text_xing"
+                style="@style/TextStyleSearch"
+                android:text="@string/digit_x0" />
+
+            <TextView
+                android:id="@+id/search_text_a"
+                style="@style/TextStyleSearch"
+                android:text="@string/text_a" />
+
+            <TextView
+                android:id="@+id/search_text_b"
+                style="@style/TextStyleSearch"
+                android:text="@string/text_b" />
+
+            <TextView
+                android:id="@+id/search_text_c"
+                style="@style/TextStyleSearch"
+                android:text="@string/text_c" />
+
+            <TextView
+                android:id="@+id/search_text_d"
+                style="@style/TextStyleSearch"
+                android:text="@string/text_d" />
+
+            <TextView
+                android:id="@+id/search_text_e"
+                style="@style/TextStyleSearch"
+                android:text="@string/text_e" />
+
+            <TextView
+                android:id="@+id/search_text_f"
+                style="@style/TextStyleSearch"
+                android:text="@string/text_f" />
+
+            <TextView
+                android:id="@+id/search_text_g"
+                style="@style/TextStyleSearch"
+                android:text="@string/text_g" />
+
+            <TextView
+                android:id="@+id/search_text_h"
+                style="@style/TextStyleSearch"
+                android:text="@string/text_h" />
+
+            <TextView
+                android:id="@+id/search_text_i"
+                style="@style/TextStyleSearch"
+                android:text="@string/text_i" />
+
+            <TextView
+                android:id="@+id/search_text_j"
+                style="@style/TextStyleSearch"
+                android:text="@string/text_j" />
+
+            <TextView
+                android:id="@+id/search_text_k"
+                style="@style/TextStyleSearch"
+                android:text="@string/text_k" />
+
+            <TextView
+                android:id="@+id/search_text_l"
+                style="@style/TextStyleSearch"
+                android:text="@string/text_l" />
+
+            <TextView
+                android:id="@+id/search_text_m"
+                style="@style/TextStyleSearch"
+                android:text="@string/text_m" />
+
+            <TextView
+                android:id="@+id/search_text_n"
+                style="@style/TextStyleSearch"
+                android:text="@string/text_n" />
+
+            <TextView
+                android:id="@+id/search_text_o"
+                style="@style/TextStyleSearch"
+                android:text="@string/text_o" />
+
+            <TextView
+                android:id="@+id/search_text_p"
+                style="@style/TextStyleSearch"
+                android:text="@string/text_p" />
+
+            <TextView
+                android:id="@+id/search_text_q"
+                style="@style/TextStyleSearch"
+                android:text="@string/text_q" />
+
+            <TextView
+                android:id="@+id/search_text_r"
+                style="@style/TextStyleSearch"
+                android:text="@string/text_r" />
+
+            <TextView
+                android:id="@+id/search_text_s"
+                style="@style/TextStyleSearch"
+                android:text="@string/text_s" />
+
+            <TextView
+                android:id="@+id/search_text_t"
+                style="@style/TextStyleSearch"
+                android:text="@string/text_t" />
+
+            <TextView
+                android:id="@+id/search_text_u"
+                style="@style/TextStyleSearch"
+                android:text="@string/text_u" />
+
+            <TextView
+                android:id="@+id/search_text_v"
+                style="@style/TextStyleSearch"
+                android:text="@string/text_v" />
+
+            <TextView
+                android:id="@+id/search_text_w"
+                style="@style/TextStyleSearch"
+                android:text="@string/text_w" />
+
+            <TextView
+                android:id="@+id/search_text_x"
+                style="@style/TextStyleSearch"
+                android:text="@string/text_x" />
+
+            <TextView
+                android:id="@+id/search_text_y"
+                style="@style/TextStyleSearch"
+                android:text="@string/text_y" />
+
+            <TextView
+                android:id="@+id/search_text_z"
+                style="@style/TextStyleSearch"
+                android:text="@string/text_z" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

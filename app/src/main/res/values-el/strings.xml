@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bt_music">"BT ΜΟΥΣΙΚΉ"</string>
+
+    <string name="device_name">"Όνομα συσκευής"</string>
+    <string name="pin">"Αριθμός PIN"</string>
+    <string name="auto_connect">"Αυτόματη σύνδεση"</string>
+    <string name="auto_answer">"Αυτόματη απάντηση"</string>
+    <string name="alert_dialog_ok">"ΟΚ"</string>
+    <string name="alert_dialog_cancel">"Ακύρωση"</string>
+    <string name="remove_calllog">"Διαγραφή όλου του ιστορικού κλήσεων"</string>
+    <string name="download_pb_phone">"Κατέβασμα του τηλεφωνικού καταλόγου"</string>
+    <string name="download_pb_sim">"Κατέβασμα του τηλεφωνικού καταλόγου SIM"</string>
+    <string name="remove_pb_phone">"Διαγραφή τηλεφωνικού καταλόγου"</string>
+    <string name="remove_pb_favorite">"Διαγραφή αγαπημένων"</string>
+    <string name="remove_pb_sim">"Διαγραφή τηλεφωνικού καταλόγου SIM"</string>
+    <string name="remove_pair">"Διαγραφή όλων των ζευγωποιημένων αρχείων?"</string>
+    <string name="remove_one_pair">"Διαγραφή αυτού του ζευγοποιημένου αρχείου?"</string>
+    <string name="record">"Εγγραφές"</string>
+    <string name="total">"Σύνολο:"</string>
+    <string name="text_connect">"Συνδεδεμένο"</string>
+    <string name="saving_phone_book">"Αποθήκευση καταλόγου, παρακαλώ περιμένετε."</string>
+    <string-array name="auto_array">
+        <item>"Κλειστό"</item>
+        <item>"Ανοιχτό"</item>
+    </string-array>
+
+    <string name="pause">"Παύση"</string>
+
+    <string name="if_dial">"Κλήση:"</string>
+
+    <string name="if_diconnect">"Συνδεδεμένη συσκευή τώρα, αποσύνδεση?"</string>
+
+    <string name="phone_book_connect_fail">"σύνδεση τηλεφωνικού καταλόγου αποτυγχάνει, ίσως το κινητό δεν υποστηρίζει."</string>
+    <string name="connecting">"συνδεση"</string>
+
+    <string name="dialing">"κλήση"</string>
+    <string name="incoming">"εισερχόμενη"</string>
+    <string name="calling">"κλήση"</string>
+    <string name="unknow">"άγνωστο"</string>
+
+
+    <string name="a2dp_disconnect_info">"Αποσυνδεδεμένο, αναζήτηση:%s, "</string>
+    <string name="a2dp_disconnect_info2">"PIN:%s για σύνδεση"</string>
+
+
+    <string name="sorting">"Ταξινόμηση τηλεφωνικού καταλόγου"</string>
+
+    <string name="help">"Έλεγχος φωνής Bluetooth"</string>
+    <string name="help2">"Καλώ"</string>
+    <string name="help3">"Καλώ"</string>
+    <string name="speech_note1">"Επιλέξτε ένα για κλήση"</string>
+
+
+    <string name="syncing">"Συγχρονισμός τηλεφωνικού καταλόγου"</string>
+    <string name="updating">"Ενημέρωση τηλεφωνικού καταλόγου"</string>
+
+    <string name="voicecontrol_name">"Φωνητικός έλεγχος"</string>
+    <string name="voicecontrol_notice">"Συνδέστε το Bluetooth και κατεβάστε πρώτα τον τηλεφωνικό κατάλογο!"</string>
+
+
+    <string name="version">"Έκδοση"</string>
+
+    <string name="bt_update">"Θέλετε να ενημερώσετε;"</string>
+    <string name="add_to_favorite">"Θέλετε να προσθέσετε στη λίστα αγαπημένων;"</string>
+    <string name="delete_favorite">"Θέλετε να διαγράψετε τη λίστα αγαπημένων;"</string>
+
+
+    <string name="matchdevice">"Συνδεδεμένες συσκευές"</string>
+    <string name="searchdevice">"Διαθέσιμες συσκευές"</string>
+
+
+    <string name="connection">"Σύνδεση?"</string>
+    <string name="search">"Αναζήτηση"</string>
+
+</resources>

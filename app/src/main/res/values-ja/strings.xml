@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="bluetooth_settings">BT</string>
+    <string name="bt_music">Bluetooth音楽</string>
+    <string name="device_name">デバイス名</string>
+    <string name="pin">PIN</string>
+    <string name="auto_connect">自動接続</string>
+    <string name="auto_answer">自動応答</string>
+    <string name="alert_dialog_ok">決定する</string>
+    <string name="alert_dialog_cancel">キャンセル</string>
+    <string name="remove_calllog">すべての通話履歴を削除する</string>
+    <string name="download_pb_phone">携帯電話の本をダウンロード</string>
+    <!--     <string name="download_pb_sim">下载SIM卡电话本</string> -->
+    <string name="remove_pb_phone">電話帳を削除する</string>
+    <!--     <string name="remove_pb_sim">删除SIM卡电话本</string> -->
+    <string name="remove_pair">ペアになっているすべてのレコードを削除する</string>
+    <!--     <string name="remove_pb_favorite">删除收藏列表电话本</string> -->
+    <string name="record">電話記録</string>
+    <string name="total">合計:</string>
+    <string name="text_connect">接続済み</string>
+    <string name="if_diconnect">現在接続中、切断済み？</string>
+
+    <string-array name="auto_array">
+        <item>閉じる</item>
+        <item>オープン</item>
+    </string-array>
+
+    <string name="saving_phone_book">電話帳を保存してください、しばらくお待ちください</string>
+    <string name="connecting">接続する</string>
+    <string name="phone_book_connect_fail">電話帳サービスの接続に失敗し、ダウンロードを停止する。</string>
+    <string name="dialing">ダイヤル</string>
+    <string name="incoming">着信呼</string>
+
+    <string name="unknow">不明</string>
+
+    <string name="a2dp_disconnect_info">Bluetoothデバイスが接続されていません、デバイスを検索してください:%s, </string>
+    <string name="a2dp_disconnect_info2">PIN:%s</string>
+
+
+    <string name="if_dial">電話をかける:</string>
+
+
+    <string name="sorting">電話帳の並べ替え</string>
+
+    <string name="matchdevice">デバイスの組み合わせ</string>
+    <string name="searchdevice">利用可能なデバイス</string>
+
+    <!--     <string name="help">蓝牙语音控制</string> -->
+    <!--     <string name="help1">"你可以这样说"</string> -->
+    <!--     <string name="help2">"拨打:"</string> -->
+    <!--     <string name="help3">"呼叫:"</string> -->
+
+    <!--     <string name="speech_note1">"请选择一个号码拨打"</string> -->
+
+
+    <!--     <string name="syncing">正在同步电话本 </string> -->
+    <!--     <string name="updating">正在更新电话本 </string> -->
+
+    <!--     <string name="voicecontrol_notice">请先连接蓝牙并下载蓝牙电话本!</string> -->
+
+
+    <!--     <string name="bt_update">需要更新蓝牙固件吗?</string> -->
+
+    <!--     <string name="add_to_favorite">你想添加此联系人到收藏列表中吗?</string> -->
+
+    <!--     <string name="delete_favorite">你想删除此联系人吗?</string> -->
+</resources>

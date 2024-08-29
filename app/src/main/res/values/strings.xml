@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bt_music">BT MUSIC</string>
+    <string name="bluetooth_settings">Bluetooth</string>
+    <string name="digit_0">0<small>+</small></string>
+    <string name="digit_1">1</string>
+    <string name="digit_2">2</string>
+    <string name="digit_3">3</string>
+    <string name="digit_4">4</string>
+    <string name="digit_5">5</string>
+    <string name="digit_6">6</string>
+    <string name="digit_7">7</string>
+    <string name="digit_8">8</string>
+    <string name="digit_9">9</string>
+    <string name="digit_x0">*</string>
+    <string name="digit_x1">#</string>
+    <string name="device_name">Device name</string>
+    <string name="pin">PIN Number</string>
+    <string name="auto_connect">Auto connect</string>
+    <string name="auto_answer">Auto answer</string>
+    <string name="alert_dialog_ok">OK</string>
+    <string name="alert_dialog_cancel">Cancel</string>
+    <string name="remove_calllog">Delete all call records</string>
+    <string name="download_pb_phone">Download the phone book</string>
+    <string name="download_pb_sim">Download the SIM phone book</string>
+    <string name="remove_pb_phone">Delete the phone book</string>
+    <string name="remove_pb_favorite">Delete the phone book in favorite</string>
+    <string name="remove_pb_sim">Delete the SIM phone book</string>
+    <string name="remove_pair">Delete all pair records?</string>
+    <string name="remove_one_pair">Delete this pair records?</string>
+    <string name="record">Records</string>
+    <string name="total">Total:</string>
+    <string name="text_connect">Connected</string>
+    <string name="saving_phone_book">Saving phone book, please wait.</string>
+    <string-array name="auto_array">
+        <item>Close</item>
+        <item>Open</item>
+    </string-array>
+
+    <string name="pause">Pause</string>
+
+    <string name="if_dial">Dial:</string>
+    <string name="if_del">Del:</string>
+
+    <string name="if_diconnect">Connected device now, disconnect ?</string>
+
+    <string name="phone_book_connect_fail">phone book connect fail, maybe the cellphone not support.</string>
+    <string name="connecting">connecting</string>
+
+    <string name="dialing">dialing</string>
+    <string name="incoming">incoming</string>
+    <string name="calling">calling</string>
+    <string name="unknow">unknow</string>
+
+
+    <string name="a2dp_disconnect_info">Disconnected, search :%s,  </string>
+    <string name="a2dp_disconnect_info2">PIN:%s to connect</string>
+
+
+    <string name="sorting">Sorting Phonebook</string>
+
+    <!--     <string name="get_pb_index">Get Phone book index</string> -->
+    <!--     <string name="get_phone">Get Phone book index</string> -->
+
+    <string name="help">Bluetooth Voice Control</string>
+    <string name="help2">"Dial"</string>
+    <string name="help3">"Call"</string>
+    <string name="speech_note1">"Select one to dial"</string>
+
+
+    <string name="syncing">Synchronizing Phonebook</string>
+    <string name="updating">Updating Phonebook</string>
+
+    <string name="voicecontrol_name">VoiceControl</string>
+    <string name="voicecontrol_notice">Please connect Bluetooth and download the phonebook first!</string>
+
+
+    <string name="version">Version</string>
+
+    <string name="bt_update">Do you want to update?</string>
+    <string name="add_to_favorite">Do you want to add to favorite list?</string>
+    <string name="delete_favorite">Do you want to delete the favorite in list?</string>
+
+    <string name="text_a">A</string>
+    <string name="text_b">B</string>
+    <string name="text_c">C</string>
+    <string name="text_d">D</string>
+    <string name="text_e">E</string>
+    <string name="text_f">F</string>
+    <string name="text_g">G</string>
+    <string name="text_h">H</string>
+    <string name="text_i">I</string>
+    <string name="text_j">J</string>
+    <string name="text_k">K</string>
+    <string name="text_l">L</string>
+    <string name="text_m">M</string>
+    <string name="text_n">N</string>
+    <string name="text_o">O</string>
+    <string name="text_p">P</string>
+    <string name="text_q">Q</string>
+    <string name="text_r">R</string>
+    <string name="text_s">S</string>
+    <string name="text_t">T</string>
+    <string name="text_u">U</string>
+    <string name="text_v">V</string>
+    <string name="text_w">W</string>
+    <string name="text_x">X</string>
+    <string name="text_y">Y</string>
+    <string name="text_z">Z</string>
+
+
+    <string name="matchdevice">Paired devices</string>
+    <string name="searchdevice">Available devices</string>
+
+
+    <string name="connection">Connection?</string>
+    <string name="search">Search</string>
+
+    <string name="LA">A</string>
+    <string name="LB">B</string>
+    <string name="LC">C</string>
+    <string name="LD">D</string>
+    <string name="LE">E</string>
+    <string name="LF">F</string>
+    <string name="LG">G</string>
+    <string name="LH">H</string>
+    <string name="LI">I</string>
+    <string name="LJ">J</string>
+    <string name="LK">K</string>
+    <string name="LL">L</string>
+    <string name="LM">M</string>
+    <string name="LN">N</string>
+    <string name="LO">O</string>
+    <string name="LP">P</string>
+    <string name="LQ">Q</string>
+    <string name="LR">R</string>
+    <string name="LS">S</string>
+    <string name="LT">T</string>
+    <string name="LU">U</string>
+    <string name="LV">V</string>
+    <string name="LW">W</string>
+    <string name="LX">X</string>
+    <string name="LY">Y</string>
+    <string name="LZ">Z</string>
+
+    <string name="LА">А</string>
+    <string name="LБ">Б</string>
+    <string name="LВ">В</string>
+    <string name="LГ">Г</string>
+    <string name="LД">Д</string>
+    <string name="LЕ">Е</string>
+    <string name="LЁ">Ё</string>
+    <string name="LЖ">Ж</string>
+    <string name="LЗ">З</string>
+    <string name="LИ">И</string>
+    <string name="LЙ">Й</string>
+    <string name="LК">К</string>
+    <string name="LЛ">Л</string>
+    <string name="LМ">М</string>
+    <string name="LН">Н</string>
+    <string name="LО">О</string>
+    <string name="LП">П</string>
+    <string name="LР">Р</string>
+    <string name="LС">С</string>
+    <string name="LТ">Т</string>
+    <string name="LУ">У</string>
+    <string name="LФ">Ф</string>
+    <string name="LХ">Х</string>
+    <string name="LЦ">Ц</string>
+    <string name="LЧ">Ч</string>
+    <string name="LШ">Ш</string>
+    <string name="LЩ">Щ</string>
+    <string name="LЪ">Ъ</string>
+    <string name="LЫ">Ы</string>
+    <string name="LЬ">Ь</string>
+    <string name="LЭ">Э</string>
+    <string name="LЮ">Ю</string>
+    <string name="LЯ">Я</string>
+    <string name="auto">Auto</string>
+</resources>

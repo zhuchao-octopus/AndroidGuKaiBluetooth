@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="help">Bluetooth Voice Control</string>
+    <string name="help2">"Comporre"</string>
+    <string name="help3">"Chiamata"</string>
+    <string name="speech_note1">"Selezionane uno da comporre"</string>
+
+
+    <string name="syncing">Sincronizzazione della rubrica</string>
+    <string name="updating">Aggiornamento della rubrica</string>
+
+    <string name="voicecontrol_name">Controllo vocale</string>
+    <string name="voicecontrol_notice">Si prega di collegare Bluetooth e scaricare prima la rubrica!</string>
+    <string name="matchdevice">dispositivi associati</string>
+    <string name="searchdevice">dispositivi disponibili</string>
+</resources>

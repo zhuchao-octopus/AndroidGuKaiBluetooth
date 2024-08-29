@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bt_music">Muzica Bluetooth</string>
+    <string name="bluetooth_settings">Bluetooth</string>
+    <string name="device_name">Nume dispozitiv</string>
+    <string name="pin">Numar PIN:</string>
+    <string name="auto_connect">Conectare automată</string>
+    <string name="auto_answer">Raspuns automat</string>
+    <string name="alert_dialog_ok">OK</string>
+    <string name="alert_dialog_cancel">Anulare</string>
+    <string name="remove_calllog">Ștergeți toate înregistrările apelurilor</string>
+    <string name="download_pb_phone">Descărcați agenda telefonică</string>
+    <string name="download_pb_sim">Descărcați agenda telefonică SIM</string>
+    <string name="remove_pb_phone">Ștergeți agenda telefonică</string>
+    <string name="remove_pb_favorite">Ștergeți agenda telefonică din favorite</string>
+    <string name="remove_pb_sim">Ștergeți agenda telefonică SIM</string>
+    <string name="remove_pair">Ștergeți toate înregistrările dublate?</string>
+    <string name="remove_one_pair">Ștergeți această inregistrare dublată?</string>
+    <string name="record">Înregistrări</string>
+    <string name="total">Total:</string>
+    <string name="text_connect">Conectat</string>
+    <string name="saving_phone_book">Se salvează agenda telefonică, așteptați.</string>
+
+    <string-array name="auto_array">
+        <item>Închide</item>
+        <item>Deschide</item>
+    </string-array>
+
+    <string name="pause">Întrerupeți</string>
+    <string name="if_dial">Apelați:</string>
+    <string name="if_del">Sterge:</string>
+    <string name="if_diconnect">Dispozitiv conectat acum, vă deconectati?</string>
+    <string name="phone_book_connect_fail">conectarea agendei telefonice eșuează, poate că telefonul mobil nu este compatibil.</string>
+    <string name="connecting">se conecteaza</string>
+    <string name="dialing">formeaza</string>
+    <string name="incoming">apelare</string>
+    <string name="calling">apeleaza</string>
+    <string name="unknow">necunoscut</string>
+    <string name="a2dp_disconnect_info">Deconectat, căutați :%s, </string>
+    <string name="a2dp_disconnect_info2">PIN:%s pentru conectare</string>
+    <string name="sorting">Sortarea agendei telefonice</string>
+    <string name="help">Control vocal Bluetooth</string>
+    <string name="help2">"Formeaza"</string>
+    <string name="help3">"Apel"</string>
+    <string name="speech_note1">"Selectați unul pentru a apela"</string>
+    <string name="syncing">Sincronizarea agendei telefonice</string>
+    <string name="updating">Actualizarea agendei telefonice</string>
+    <string name="voicecontrol_name">Control vocal</string>
+    <string name="voicecontrol_notice">Conectați Bluetooth și descărcați mai întâi agenda telefonică!</string>
+    <string name="version">Versiune</string>
+    <string name="bt_update">Doriți să actualizați?</string>
+    <string name="add_to_favorite">Doriți să adăugați la lista de favorite?</string>
+    <string name="delete_favorite">Doriți să ștergeți favoritul din listă?</string>
+    <string name="matchdevice">Dispozitive asociate</string>
+    <string name="searchdevice">Dispozitive disponibile</string>
+    <string name="connection">Conexiune?</string>
+    <string name="search">Căutare</string>
+    <string name="auto">Automat</string>
+
+</resources>

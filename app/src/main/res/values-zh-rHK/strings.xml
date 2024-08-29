@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="bluetooth_settings">藍牙</string>
+    <string name="device_name">設備名稱</string>
+    <string name="pin">PIN碼</string>
+    <string name="auto_connect">自動連接</string>
+    <string name="auto_answer">自動接聽</string>
+    <string name="alert_dialog_ok">確定</string>
+    <string name="alert_dialog_cancel">取消</string>
+    <string name="remove_calllog">刪除全部通話記錄</string>
+    <string name="download_pb_phone">下載手機電話本</string>
+    <string name="download_pb_sim">下載SIM卡電話本</string>
+    <string name="remove_pb_phone">刪除手機電話本</string>
+    <string name="remove_pb_sim">刪除SIM卡電話本</string>
+    <string name="remove_pair">刪除全部配對記錄</string>
+    <string name="record">記錄</string>
+    <string name="total">總計:</string>
+
+    <string-array name="auto_array">
+        <item>關閉</item>
+        <item>打開</item>
+    </string-array>
+
+    <string name="a2dp_disconnect_info">蓝牙设备未连接，请搜索设备:%s,</string>
+    <string name="a2dp_disconnect_info2">PIN码:%s,进行连接</string>
+
+    <string name="sorting">正在重新排序電話本</string>
+
+
+    <string name="matchdevice">已配對設備</string>
+    <string name="searchdevice">可用設備</string>
+</resources>

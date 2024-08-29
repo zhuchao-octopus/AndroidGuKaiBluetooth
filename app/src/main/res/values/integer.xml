@@ -1,0 +1,6 @@
+<!-- ?xml version="1.0" encoding="utf-8"? -->
+<resources>
+
+    <integer name="ui_type">0</integer>
+    <integer name="a2dp_inside">0</integer>
+</resources>

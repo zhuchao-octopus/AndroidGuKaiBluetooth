@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="bt_music">"Музыка BT"</string>
+
+
+    <string name="device_name">Имя устройства</string>
+
+    <string name="pin">Пароль</string>
+    <string name="auto_connect">Автосоединение</string>
+    <string name="auto_answer">Автоответ</string>
+    <string name="alert_dialog_ok">"ОК"</string>
+    <string name="alert_dialog_cancel">Отмена</string>
+    <string name="remove_calllog">Удалить все записи вызовов</string>
+    <string name="download_pb_phone">Загрузить контакты</string>
+    <string name="download_pb_sim">"Загрузить контакты SIM-карты"</string>
+
+    <string name="remove_pb_phone">Очистить контакты</string>
+    <string name="remove_pb_favorite">"Удалить контакты из избранного"</string>
+    <string name="remove_pb_sim">"Удалить контакты SIM-карты"</string>
+
+    <string name="remove_pair">"Удалить все записи?"</string>
+    <string name="remove_one_pair">"Удалить данные записи?"</string>
+    <string name="record">Записи</string>
+    <string name="total">Всего</string>
+    <string name="text_connect">Подключено</string>
+    <string name="if_diconnect">"Устройство сейчас подключено, разъединить?"</string>
+
+    <string-array name="auto_array">
+        <item>Закрыть</item>
+        <item>Открыть</item>
+    </string-array>
+
+    <string name="saving_phone_book">Сохранение контактов, подождите</string>
+    <string name="connecting">подключение</string>
+    <string name="phone_book_connect_fail">Ошибка загрузки контактов, возможно телефон не поддерживается</string>
+    <string name="dialing">"вызов"</string>
+    <string name="incoming">входящий</string>
+    <string name="calling">"звоним"</string>
+
+    <string name="unknow">неизвестный</string>
+
+    <string name="a2dp_disconnect_info">устройство отключено, поиск:%s, </string>
+    <string name="a2dp_disconnect_info2">PIN:%s подключиться</string>
+
+    <string name="help">Голосовое управление Bluetooth</string>
+    <string name="help2">Набрать</string>
+    <string name="help3">Вызов</string>
+    <string name="speech_note1">Выберите один для набора</string>
+
+    <string name="syncing">Синхронизация контактов</string>
+    <string name="updating">Обновление контактов</string>
+
+    <string name="voicecontrol_name">Голосовой контроль</string>
+    <string name="voicecontrol_notice">Пожалуйста, подключите устройство и загрузите контакты!s</string>
+
+    <string name="pause">"Пауза"</string>
+
+    <string name="if_dial">Набрать:</string>
+
+
+    <string name="sorting">Сортировка контактов</string>
+
+    <string name="matchdevice">Сопряженные устройства</string>
+    <string name="searchdevice">Доступные устройства</string>
+
+    <string name="version">"Версия"</string>
+    <string name="bt_update">"Вы хотите обновить?"</string>
+    <string name="add_to_favorite">"Вы хотите добавить в избранное?"</string>
+    <string name="delete_favorite">"Вы хотите удалить из избранного?"</string>
+
+    <string name="connection">"Подключить?"</string>
+    <string name="search">"Поиск"</string>
+</resources>
